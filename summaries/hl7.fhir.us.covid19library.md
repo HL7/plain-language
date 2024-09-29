@@ -1,0 +1,7 @@
+This standard aims to improve how COVID-19 information is shared in healthcare settings. It creates a library of reusable data elements specifically for COVID-19, which can be used across different systems and organizations. The standard covers key areas such as patient care, screening, and research.
+
+The standard defines how to represent various COVID-19 data, including lab tests, symptoms, diagnoses, and underlying conditions. It uses established medical coding systems like LOINC, SNOMED CT, and ICD-10 to ensure consistency. While it aligns with U.S. healthcare data exchange initiatives, it's not meant for official case reporting to public health agencies.
+
+Healthcare providers can use this standard to exchange patient data more effectively, supporting better care coordination. Public health agencies may find it useful for standardizing data collection and analysis. Researchers can benefit from more consistent data for COVID-19 studies. Health IT developers can use the standard to create interoperable systems that support COVID-19 related work.
+
+By promoting efficient and accurate data exchange, this standard ultimately aims to improve patient care and public health outcomes related to COVID-19.

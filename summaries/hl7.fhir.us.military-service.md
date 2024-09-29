@@ -1,0 +1,7 @@
+This standard aims to improve how military service history and status information is shared in the United States. It focuses on helping veterans securely communicate their service details to healthcare providers, community agencies, and employers using FHIR APIs. The standard defines specific ways to represent military service episodes, deployment history, and occupations. It also includes a method to verify veteran status.
+
+Key features include profiles for structuring military service data, extensions to capture veteran status verification, and use of existing medical terminology systems. The standard also proposes new terminology for areas where gaps exist, such as discharge status codes.
+
+Veterans benefit from easier sharing of their military service information, potentially leading to better healthcare and support services. Healthcare providers can access standardized data to assess health risks and provide appropriate care for veterans. Community agencies can tailor their services to veterans' needs, while employers can verify veteran status for hiring purposes.
+
+The standard aligns with US regulations for veteran benefits and healthcare data exchange requirements. It builds upon existing healthcare data standards to ensure consistency and compatibility with broader health information systems.

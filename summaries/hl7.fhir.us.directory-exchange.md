@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of healthcare directory information in the United States. It defines a FHIR-based API for accessing and sharing validated data about healthcare providers, organizations, services, and insurance plans. The standard focuses on creating a centralized, verified national directory that can be accessed by various healthcare entities.
+
+Key features include comprehensive data validation processes, detailed search capabilities, and provisions for data privacy and access restrictions. The standard also supports bulk data transfer and subscription models for efficient updates.
+
+By standardizing directory data exchange, this approach seeks to reduce administrative burdens and improve data quality. Healthcare providers, insurers, and government agencies can use this standard to maintain more accurate and up-to-date information. This can lead to better care coordination and make it easier for patients to find appropriate healthcare services.
+
+The standard aligns with existing healthcare regulations and promotes interoperability among different healthcare systems. It provides a framework for developers to create applications that can reliably access and use healthcare directory information.

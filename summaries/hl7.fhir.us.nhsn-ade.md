@@ -1,0 +1,7 @@
+This standard, developed for use in the United States, provides a framework for hospitals to report adverse drug events (ADEs) related to hypoglycemia and hyperglycemia to the National Healthcare Safety Network (NHSN). It focuses on inpatient settings and leverages EHR data to track medication-related blood sugar issues.
+
+The standard uses FHIR to define how ADE data should be structured and shared. It emphasizes linking medication administration records with blood glucose results to accurately identify medication-related events. The design includes separate modules for hypoglycemia and hyperglycemia, allowing for flexibility and potential future expansion.
+
+Key beneficiaries include hospitals, who gain a standardized reporting process, and the CDC/NHSN, which receives consistent, high-quality data to track ADEs and inform public health interventions. EHR vendors also play a crucial role in implementing the standard to enable data transmission.
+
+The standard aligns with quality reporting metrics endorsed by the National Quality Forum related to hypoglycemia and hyperglycemia. This ensures that the collected data contributes to national quality improvement efforts in patient safety and diabetes care management.

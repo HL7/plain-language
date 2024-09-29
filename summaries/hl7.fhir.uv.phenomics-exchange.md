@@ -1,0 +1,7 @@
+This standard aims to improve how detailed patient phenotype data, especially for rare diseases, is represented and shared in healthcare systems. It focuses on aligning FHIR resources with the GA4GH Phenopacket format, enabling better exchange of phenotypic information for research and genomic diagnostics.
+
+The standard uses FHIR resources like Observation, Condition, Specimen, and MedicationAdministration to model various aspects of a patient's phenotype. It incorporates standardized coding systems such as the Human Phenotype Ontology and Mendelian Disease Ontology to ensure consistent representation of clinical concepts.
+
+Primarily designed for clinicians and researchers working in rare disease diagnosis and treatment, this standard facilitates more effective data sharing and analysis. By providing a structured way to capture and exchange detailed phenotypic information, it supports efforts to improve diagnostic accuracy and advance understanding of rare diseases.
+
+Developed under the Global Alliance for Genomics and Health (GA4GH), this standard promotes interoperability with other genomic data standards, supporting responsible and efficient sharing of critical health information across different systems and organizations.

@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare providers in the United States share patient information electronically. It focuses on structuring clinical documents like discharge summaries and progress notes. The standard defines templates for organizing clinical data, ensuring consistency across different healthcare systems.
+
+Key features include clear guidelines for representing unknown or missing information, using identifiers consistently, and precisely recording dates and times. It also emphasizes the importance of readable text alongside coded data, making documents useful for both humans and computers.
+
+The standard incorporates the latest US Core Data for Interoperability requirements, aligning with national data exchange standards. It supports various healthcare processes, including care coordination, quality measurement, public health reporting, and billing.
+
+Healthcare providers, EHR vendors, and health information exchange organizations are the primary users of this standard. It's recognized by U.S. regulations, being designated as the standard for certain EHR certification criteria. By promoting standardized, structured data, it also supports secondary uses like research and population health analysis.

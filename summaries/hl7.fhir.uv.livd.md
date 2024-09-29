@@ -1,0 +1,7 @@
+This standard aims to streamline how manufacturers suggest standardized codes for their in vitro diagnostic (IVD) tests. It focuses on mapping manufacturer-specific test codes to LOINC, a widely used system for identifying medical laboratory tests. The standard is designed for use in the United States and aligns with CLIA regulations.
+
+The standard uses FHIR to represent data, employing concept maps to link vendor codes to LOINC codes and including important details like specimen type and result descriptions. It packages all necessary information in resource bundles for easy distribution.
+
+Key beneficiaries include IVD manufacturers, who can now publish standardized mappings, and laboratory information system vendors, who can integrate this data into their products. Laboratory personnel benefit from easier and more accurate test mapping, which enhances data quality and consistency.
+
+By providing a structured, machine-readable format for LOINC code suggestions, this standard improves upon previous methods where such information was often scattered and difficult to integrate. It ultimately contributes to better interoperability in laboratory data systems, supporting more efficient healthcare delivery and research.

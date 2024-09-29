@@ -1,0 +1,7 @@
+This standard aims to create a national directory of healthcare providers and services in the United States. It establishes a centralized, reliable source of information about healthcare providers, organizations, and their services, including details about relationships, electronic endpoints, and network affiliations.
+
+The standard outlines processes for data submission, validation, and verification, ensuring accuracy and trustworthiness. It defines APIs for both national and local directory environments, promoting data exchange and interoperability. The standard also supports bulk data export for efficient handling of large datasets and includes subscription mechanisms for real-time updates.
+
+Key features include security considerations, incorporating FHIR security standards and authorization protocols. It also addresses the handling of sensitive data through a restriction profile to manage access and disclosure.
+
+Primary beneficiaries include local directories, healthcare providers and organizations, application developers, and payers. The standard aims to improve the efficiency and accuracy of healthcare directories, reducing administrative burden and enabling easier access to verified provider data for various healthcare stakeholders.

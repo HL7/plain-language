@@ -1,0 +1,7 @@
+This standard aims to simplify and automate the process of submitting data to clinical registries. Currently, registry submissions often involve manual data entry and complex data mapping between different healthcare systems. The standard seeks to streamline this process using FHIR resources and protocols.
+
+Key features include standardized data definitions using FHIR Logical Models, automated data extraction from various healthcare data formats, and a streamlined submission process using a standardized FHIR Bundle. The standard supports mapping registry data elements to FHIR resources and other healthcare data formats, enabling automated data retrieval from different systems.
+
+The standard also includes provisions for validating registry submissions and supports asynchronous bulk submissions for efficient handling of large data volumes. It encourages the use of standard terminologies like LOINC, SNOMED CT, and ICD-10-CM to ensure semantic interoperability.
+
+Primary beneficiaries include clinical registries, healthcare provider organizations, and health IT vendors. Registries benefit from improved data quality and efficiency, while healthcare providers can reduce administrative burden through automated data collection and submission. Health IT vendors can develop systems that support automated registry reporting.

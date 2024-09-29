@@ -1,0 +1,7 @@
+This standard bridges the gap between DICOM Structured Reports (SR) used in medical imaging and FHIR Observation resources used in broader healthcare systems. It focuses on converting imaging measurements and qualitative evaluations from DICOM SR documents into FHIR format.
+
+The standard defines specific profiles for representing imaging data in FHIR, including "Imaging Measurement Group," "Imaging Measurement," and "Imaging Qualitative Evaluation." It uses concept maps to link DICOM codes and attributes to FHIR elements, ensuring accurate data transformation. The standard also addresses the complexity of mapping multiple imaging devices and algorithms to appropriate FHIR Device resources.
+
+Implementers of healthcare IT systems can use this standard to integrate imaging data from DICOM SR into their applications. Imaging device and algorithm developers can ensure their outputs are compatible with FHIR-based systems. This enables clinicians to access imaging data more easily within their existing workflows, potentially improving decision-making processes.
+
+The standard emphasizes security in data exchange, highlighting the need for audit logs, encryption, and adherence to FHIR security requirements.

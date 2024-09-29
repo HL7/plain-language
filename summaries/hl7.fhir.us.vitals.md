@@ -1,0 +1,7 @@
+This standard aims to improve how vital signs data is recorded, searched, and retrieved in healthcare systems across the United States. It focuses on common measurements like heart rate, breathing rate, body temperature, and blood pressure. The standard enhances existing FHIR profiles by adding more detailed information, such as body position and device type used for measurements.
+
+Key features include the use of LOINC and SNOMED CT codes for consistent terminology, and custom extensions to capture additional data like blood pressure cuff size. The standard also provides guidance on recording data from wearable devices, bridging the gap between healthcare providers and patient-generated information.
+
+Healthcare providers benefit from more standardized and detailed vital signs data, which can improve patient care and decision-making. Patients using wearable devices can more easily share their health information with doctors. EHR vendors and developers can use this standard to ensure their systems exchange vital signs data effectively. Researchers may also find the standardized data useful for clinical studies and analysis.
+
+The standard aligns with US Core profiles and acknowledges the importance of adhering to HIPAA security regulations.

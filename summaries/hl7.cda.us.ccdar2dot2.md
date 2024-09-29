@@ -1,0 +1,7 @@
+This standard, known as Consolidated CDA (C-CDA) 3.0, aims to improve the exchange of patient information between healthcare systems in the United States. It provides detailed templates for creating various types of clinical documents, such as discharge summaries and referral notes, ensuring consistent formatting and data representation.
+
+C-CDA 3.0 consolidates previous versions, removes outdated elements, and adds new templates to align with current data requirements. It uses a library of modular templates for document headers, sections, and entries, allowing for reuse across different document types. The standard also establishes a contextual framework in the document header that applies throughout, with the ability to override at lower levels when needed.
+
+By adhering to this standard, healthcare providers can access comprehensive and standardized patient information from different sources, improving care coordination. It enables seamless exchange of patient data between different EHRs, reducing administrative burden. Ultimately, patients benefit from better continuity of care as their health information can be shared more easily between providers and healthcare organizations.
+
+C-CDA 3.0 aligns with national interoperability initiatives and provides a framework for creating documents that meet federal regulations for health information exchange.

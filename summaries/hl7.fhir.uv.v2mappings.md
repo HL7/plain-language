@@ -1,0 +1,7 @@
+This standard helps healthcare organizations transition from older HL7 Version 2 systems to newer FHIR-based systems. It provides detailed mappings for converting data between these two formats, covering messages, segments, data types, and vocabularies. The standard is designed to be comprehensive and flexible, considering all current and deprecated Version 2 elements and offering context-specific mappings where needed.
+
+Key features include reusable mapping components to reduce redundancy, guidance on handling vocabulary differences, and advice for addressing implementation challenges like cardinality mismatches and resource ID generation. The standard emphasizes the importance of validating data transformations to ensure accuracy.
+
+Healthcare IT professionals, including developers and system integrators, are the primary users of this standard. It benefits healthcare organizations looking to modernize their data exchange capabilities while maintaining compatibility with existing systems. The standard is developed collaboratively on GitHub, allowing for community contributions and ongoing improvements.
+
+By facilitating smoother transitions to FHIR, this standard supports broader interoperability efforts in healthcare, potentially improving data sharing for care coordination and patient access to health information.

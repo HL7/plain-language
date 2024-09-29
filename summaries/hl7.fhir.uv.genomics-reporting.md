@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of genomic data in healthcare settings. It provides a framework for representing genetic findings, their clinical implications, and related recommendations. The standard supports various aspects of genomic reporting, including variant analysis, haplotype identification, and genotype interpretation.
+
+Key features include new operations for querying genomic data, improved support for somatic and cancer genomics reporting, and enhanced representation of molecular biomarkers. It also introduces a GenomicStudy resource for capturing study-level metadata and a MolecularConsequence profile to better describe the impact of genetic variations.
+
+The standard benefits multiple stakeholders in the healthcare ecosystem. Laboratories can use it to report genomic findings consistently. EHRs can integrate genomic data more seamlessly into patient records. Clinicians gain structured access to genetic information, supporting more informed decision-making for diagnosis and treatment. Clinical decision support systems can leverage the standardized data to provide personalized recommendations.
+
+By providing a common framework for genomic data exchange, this standard facilitates the integration of genetics into routine patient care, advancing the field of precision medicine.

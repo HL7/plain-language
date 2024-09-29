@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare systems exchange information about fetuses during pregnancy. It introduces a consistent way to represent a fetus as a distinct entity in medical records, allowing for clearer and more accurate data sharing across different healthcare providers and systems.
+
+The standard defines how to use a simplified Patient resource with a "fetalStatus" extension to represent a fetus. This approach enables existing FHIR resources to be used with the fetus as the subject. It also provides guidance on assigning unique identifiers for fetuses, which is crucial for tracking data across systems, especially in multiple pregnancies.
+
+Key features include clarifying how to relate data to the appropriate subject (mother, fetus, or pregnancy) and expressing the mother-fetus relationship. The standard details common scenarios such as medication requests, result reporting, and data transfer between systems.
+
+Primary beneficiaries include IT developers building healthcare systems, healthcare providers who can access and share fetal data more easily, and researchers who can work with standardized data. The standard is designed to work within existing national and regional guidelines for birth and fetal death reporting.

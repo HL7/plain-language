@@ -4,29 +4,39 @@ import { VertexAI } from "@google-cloud/vertexai";
 import Anthropic from "@anthropic-ai/sdk";
 import type { TextBlock } from '@anthropic-ai/sdk/resources/index.mjs';
 
-
 const repoPath = process.argv[2];
 if (!repoPath) {
   console.error('Please provide the repository path as an argument.');
   process.exit(1);
 }
-const igName = repoPath.split('/').filter(Boolean).pop();
+const repoName = repoPath.split('/').filter(Boolean).pop();
+
+// Load the repository to package mapping
+let repoToPackage: Record<string, string> = {};
+try {
+  const mapping = await fs.readFile('repository_to_package.json', 'utf-8');
+  repoToPackage = JSON.parse(mapping);
+} catch (error) {
+  console.error('Error loading repository_to_package.json. Make sure to run repo-to-package.ts first.');
+  process.exit(1);
+}
+
+const packageId = repoToPackage[repoName] || repoName;
 
 await fs.mkdir('summaries', { recursive: true });
+
 async function processRepo(repoPath: string) {
   const inputDir = path.join(repoPath, 'input');
-  const outputFile = path.join('summaries', `${igName}.md`);
+  const outputFile = path.join('summaries', `${packageId}.md`);
 
-  // Check if output file already exists
   try {
     await fs.access(outputFile);
-    console.log(`Summary ${outputFile} for ${igName} already exists. Skipping this repo.`);
+    console.log(`Summary ${outputFile} for ${packageId} already exists. Skipping this repo.`);
     return;
   } catch (error) {
     // File doesn't exist, continue processing
   }
 
-  // Check if 'input' folder exists
   try {
     await fs.access(inputDir);
   } catch (error) {
@@ -34,10 +44,7 @@ async function processRepo(repoPath: string) {
     return;
   }
 
-  // Concatenate all relevant files
   const fileContent = await concatenateFiles(inputDir);
-
-  // Prepare and send prompt to Vertex AI
   await generateSummary(fileContent);
 }
 
@@ -64,7 +71,6 @@ async function concatenateFiles(dir: string): Promise<string> {
 
   await collectFiles(dir);
 
-  // Sort all files once
   allFiles.sort((a, b) => {
     if (a.isPageContent !== b.isPageContent) return a.isPageContent ? -1 : 1;
     if (a.depth !== b.depth) return a.depth - b.depth;
@@ -72,7 +78,6 @@ async function concatenateFiles(dir: string): Promise<string> {
     return a.name.length - b.name.length;
   });
 
-  // Process sorted files
   let content = '';
   const maxSize = 400 * 1024; // 400KB in bytes
   let currentSize = 0;
@@ -108,9 +113,6 @@ async function generateSummary(content: string) {
 
   const anthropic = new Anthropic();
 
-
-
-
   const generativeModel = vertexAI.getGenerativeModel({
     model: "gemini-pro-experimental",
     generationConfig: {
@@ -136,22 +138,17 @@ Provide concise, factual responses to each question based on the content of the 
     ]
   };
 
-  // Create prompts directory if it doesn't exist
   await fs.mkdir('prompts', { recursive: true });
-
-  // Write the full prompt request to a file
-  await fs.writeFile(path.join('prompts', `${igName}.txt`), JSON.stringify(request, null, 2));
+  await fs.writeFile(path.join('prompts', `${packageId}.txt`), JSON.stringify(request, null, 2));
 
   try {
     const response = await generativeModel.generateContent(request);
     let analysis = response.response.candidates?.[0].content.parts[0].text || "";
     console.log('Initial Analysis:', analysis);
 
-    // Create analysis directory if it doesn't exist
     await fs.mkdir('analysis', { recursive: true });
+    await fs.writeFile(path.join('analysis', `${packageId}.md`), analysis);
 
-    // Save the initial analysis to a file in the analysis directory
-    await fs.writeFile(path.join('analysis', `${igName}.md`), analysis);
     const basicGuidelines = `
 1. Explain the IG's purpose, country of use (if applicable), and context of use  / use cases, and key features / how it works. Avoid explaining what standards are in general.
 2. Write ~200 words in short paragraphs for a general audience.
@@ -163,7 +160,7 @@ Provide concise, factual responses to each question based on the content of the 
 8. Mention how the IG relates to other standards or regulations, if this is direct and relevant. Otherwise omit this.
 9. Avoid promotional language or unverified claims.
 `
-const revisionGuidelines = `
+    const revisionGuidelines = `
 Please revise this summary to adhere to the following revision guideline:
 - Rather than referring to an "IG" or "Implementation Guide", just call it a "standard".
 - Remove any explanation that healthcare standards are like a common language or that they help computers talk to each other. That's common knowledge.
@@ -176,7 +173,6 @@ Please revise this summary to adhere to the following revision guideline:
 - Remove any mention that this IG builds on FHIR; that is common knowledge.
 `
 
-    // Refinement stage
     const refinementPrompt = `
 Here is the analysis of a FHIR Implementation Guide:
 
@@ -190,75 +186,38 @@ ${revisionGuidelines}
 
 Provide only the refined summary as your response, without additional explanations or comments.`;
 
-const msg = await anthropic.messages.create({
-  model: "claude-3-5-sonnet-20240620",
-  max_tokens: 1182,
-  temperature: 0.6,
-  system: "You are a skilled communicator with expertise in health information technology and a knack for clear, concise writing.",
-  messages: [
-    {
-      "role": "user",
-      "content": [
+    const msg = await anthropic.messages.create({
+      model: "claude-3-5-sonnet-20240620",
+      max_tokens: 1182,
+      temperature: 0.6,
+      system: "You are a skilled communicator with expertise in health information technology and a knack for clear, concise writing.",
+      messages: [
         {
-          "type": "text",
-          "text": `${refinementPrompt}\n\n`
+          "role": "user",
+          "content": [
+            {
+              "type": "text",
+              "text": `${refinementPrompt}\n\n`
+            }
+          ]
+        },
+        {
+          "role": "assistant",
+          "content": [
+            {
+              "type": "text",
+              "text": "This standard"
+            }
+          ]
         }
       ]
-    },
-    {
-      "role": "assistant",
-      "content": [
-        {
-          "type": "text",
-          "text": "This standard"
-        }
-      ]
-    }
-  ]
-});
+    });
 
-    // const refinementRequest = {
-    //   systemInstruction: "You are a skilled communicator with expertise in health information technology and a knack for clear, concise writing.",
-    //   contents: [
-    //     { role: 'user', parts: [{ text: content + "\n\n" + promptInstructions }] },
-    //     { role: 'user', parts: [{ text: refinementPrompt }] },
-    //   ]
-    // };
-
-    await fs.writeFile(path.join('prompts', `${igName}-refinement.txt`), JSON.stringify(refinementPrompt, null, 2));
-    // const refinementResponse = await generativeModel.generateContent(refinementRequest);
-    const refinementResponse = "This standard " + (msg.content[0] as TextBlock).text!;
-//     let refinedSummary = refinementResponse.response.candidates?.[0].content.parts[0].text || analysis;
-//     console.log('Refined Summary:', refinedSummary);
-
-//     const finalRefinementPrompt = `
-
-// Basic guidelines:
-// ${basicGuidelines}
-
-// Here's a summary of a FHIR Implementation Guide:
-// ${refinedSummary}
-
-
-// Retain the original summary and only revise it to address the guidelines above.
-
-// Provide only the final refined summary as your response, without any additional explanations or comments.`;
-
-//     const finalRefinementRequest = {
-//       contents: [
-//         { role: 'user', parts: [{ text: analysis }] },
-//         { role: 'user', parts: [{ text: finalRefinementPrompt }] },
-//       ]
-//     };
-
-//     console.log("Requesting final refinement");
-//     await fs.writeFile(path.join('prompts', `${igName}-final-refinement.txt`), JSON.stringify(finalRefinementRequest, null, 2));
-    // const finalRefinementResponse = await generativeModel.generateContent(finalRefinementRequest);
-    // refinedSummary = finalRefinementResponse.response.candidates?.[0].content.parts[0].text || refinedSummary;
-    // console.log('Final Refined Summary:', refinedSummary);
+    await fs.writeFile(path.join('prompts', `${packageId}-refinement.txt`), JSON.stringify(refinementPrompt, null, 2));
+    const refinementResponse = "This standard" + (msg.content[0] as TextBlock).text!;
 
     console.log("Refined as", refinementResponse);
-    await fs.writeFile(path.join('summaries', `${igName}.md`), refinementResponse);
+    await fs.writeFile(path.join('summaries', `${packageId}.md`), refinementResponse);
   } catch (error) {
     console.error('Error generating or refining summary:', error);
   }

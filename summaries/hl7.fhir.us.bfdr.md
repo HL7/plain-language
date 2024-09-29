@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of electronic birth and fetal death data in the United States. It focuses on standardizing how healthcare providers, state vital records offices, and the Centers for Disease Control and Prevention (CDC) share this critical information.
+
+The standard defines specific data elements and structures using FHIR resources. It covers information from the US Standard Certificates and Worksheets for births and fetal deaths. Key features include the use of FHIR documents to represent reports, profiles that tailor FHIR resources to vital records needs, and standardized code systems for consistent data coding.
+
+The standard addresses challenges unique to vital records, such as representing multiple births and explicitly indicating when data is intentionally missing. It also includes mechanisms for data validation and optional questionnaires for collecting information directly from mothers.
+
+By adopting this standard, healthcare providers can more efficiently report births and fetal deaths to state offices. State offices, in turn, can streamline their data collection and reporting to the CDC. This improved data exchange supports public health surveillance, research, and informed policy decisions related to maternal and infant health.

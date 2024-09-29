@@ -1,0 +1,7 @@
+This standard aims to improve the process of ordering post-acute care services in the United States, focusing initially on durable medical equipment and home health services. It establishes a standardized method for exchanging orders electronically between healthcare providers and service suppliers, replacing inefficient practices like phone and fax orders.
+
+The standard supports detailed order information, including necessary documentation for medical necessity. It allows for automated order management, enabling electronic acceptance or rejection of orders. The system can also communicate information about prior authorization, appropriate use, and medical review requirements.
+
+Key features include support for ordering medical devices, services, and associated medications. The standard accommodates both real-time and asynchronous communication between providers. It also allows for the involvement of intermediaries to manage order routing and provider selection.
+
+By streamlining the ordering process, this standard aims to reduce delays in post-acute care delivery. Hospitals, clinics, durable medical equipment suppliers, and home health agencies are the primary users. Patients ultimately benefit from faster access to necessary services and equipment following hospital discharge or medical appointments.

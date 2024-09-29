@@ -1,0 +1,7 @@
+This standard aims to improve the reporting of adverse events (AEs) in clinical research. It creates a unified format for capturing and sharing AE data across different systems used in clinical trials, healthcare, and regulatory reporting.
+
+The standard introduces a specialized profile for AEs in clinical research. This profile includes important details such as the severity of the event, criteria for determining its seriousness, and whether it led to a participant leaving the study. It also captures information about how the AE relates to the study medication or procedure.
+
+By standardizing AE data, the standard streamlines communication between EHRs, patient-reported outcomes, clinical trial systems, and regulatory bodies like the FDA. This reduces manual data entry and improves efficiency in reporting to health authorities.
+
+The standard aligns with FDA regulations on safety reporting, the MedWatch program, and international guidelines for clinical safety data management. It benefits clinical researchers by facilitating efficient data collection, helps sponsors with regulatory reporting, and provides regulatory bodies with standardized, machine-readable AE reports for improved safety monitoring.

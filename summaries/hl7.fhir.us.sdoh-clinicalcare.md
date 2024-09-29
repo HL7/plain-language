@@ -1,0 +1,7 @@
+This standard aims to improve how social factors affecting health are documented and shared in the United States healthcare system. It focuses on standardizing the exchange of information about a patient's social needs, such as food insecurity, housing instability, and transportation issues.
+
+The standard enables healthcare providers, community organizations, and patient applications to work together more effectively. It defines specific ways to record social health data, manage referrals between providers and community services, and involve patients in addressing their social needs.
+
+Key features include standardized profiles for recording social health information, a structured process for making and tracking referrals, and ways for patients to participate in managing their social health data. The standard also incorporates widely recognized coding systems for social health concepts.
+
+By using this standard, healthcare providers can better identify and address social factors impacting their patients' health. Community organizations can receive clearer referrals and communicate progress back to healthcare providers. Patients benefit from more coordinated care that takes their social circumstances into account. Researchers and public health officials can analyze standardized data to understand population health trends and develop targeted interventions.

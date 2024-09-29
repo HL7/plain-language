@@ -1,0 +1,7 @@
+This standard aims to improve how real-world data from EHRs is used in medical research. Real-world data refers to health information collected during routine care, outside of clinical trials. The standard focuses on making it easier for researchers to find and retrieve relevant patient data from EHRs.
+
+The standard uses a two-phase approach. First, it helps researchers define criteria and search EHRs to identify patients for their studies. Then, it provides ways to retrieve detailed health data for those patients using FHIR resources and search parameters.
+
+Key features include profiles for important FHIR resources like Patient, Encounter, and Condition. It also introduces new search parameters to help with data retrieval. The standard specifies which data elements are essential for EHR systems to support and provides guidance on handling missing or unknown data.
+
+This work is particularly valuable for researchers, pharmaceutical companies, and regulatory agencies. It allows them to access and analyze standardized real-world data more easily, supporting drug development, regulatory submissions, and broader medical research. The standard aligns with goals of agencies like the FDA to use real-world evidence in decision-making.

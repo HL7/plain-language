@@ -1,0 +1,7 @@
+This standard aims to help patients in the United States access and use their health insurance claims data more easily. It defines a set of data fields that health plans must make available and specifies how this information should be shared through a FHIR-based API. The standard enables patients to view their claims data using consumer-friendly apps, helping them better understand their healthcare costs and make informed decisions.
+
+The standard outlines specific profiles for different types of claims, including inpatient, outpatient, professional, pharmacy, and dental. It also provides guidance on handling missing data and emphasizes the importance of data security and privacy.
+
+Health plans can use this standard to comply with regulations requiring them to give patients access to their claims data. App developers can create tools that use this standardized information to help patients manage their healthcare expenses. Healthcare providers may benefit indirectly as patients gain better access to their own health information.
+
+This standard aligns with the CMS Blue Button 2.0 initiative and addresses requirements set by the Interoperability and Patient Access Final Rule. It works in conjunction with other healthcare data exchange efforts to improve overall interoperability in the U.S. healthcare system.

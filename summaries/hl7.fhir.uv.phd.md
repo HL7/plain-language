@@ -1,0 +1,7 @@
+This standard aims to streamline how data from personal health devices (PHDs) like glucose meters, blood pressure cuffs, and weight scales is represented using FHIR. It focuses on devices used primarily in home settings, enabling seamless data exchange between PHDs, personal health gateways (PHGs), and healthcare systems.
+
+The standard leverages newer models for observations, ensuring a consistent approach to data mapping and enhancing interoperability. It addresses the challenge of unreliable PHD time stamps by introducing methods to compare and correct device timelines.
+
+Key features include a generic mapping algorithm that allows PHGs to handle various PHD types without specific device knowledge, extensibility to accommodate future device types, and robust time management capabilities. The standard also supports mapping of all viable PHD data, including error states, and provides options for protecting patient health information.
+
+This standard benefits PHG developers by providing clear guidance on data mapping, healthcare providers by enabling access to PHD data for remote patient monitoring, and researchers by facilitating the use of PHD data for medical studies. It aligns with IEEE standards for medical device communication and incorporates LOINC codes for vital signs measurements.

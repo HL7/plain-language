@@ -1,0 +1,7 @@
+This standard aims to improve how cancer pathology data is shared electronically in the United States. It focuses on creating a consistent format for labs, hospitals, and cancer registries to exchange information. The standard defines specific ways to structure cancer pathology data using FHIR, aligning with existing cancer registry requirements.
+
+Key features include eight specialized data profiles for cancer pathology, clear mapping to established cancer registry standards, and integration with electronic cancer protocols. It supports two main pathways for data transmission: directly from labs to cancer registries or through hospital EHRs.
+
+The standard benefits multiple stakeholders. Pathology labs can transmit reports more efficiently. Hospitals and EHR vendors can better integrate and share pathology data. Cancer registries receive more standardized, high-quality data, enhancing cancer surveillance and research capabilities. Public health agencies gain improved cancer reporting for prevention and control efforts.
+
+By promoting structured, machine-readable data over older formats like PDFs, this standard aims to enhance the overall quality and usefulness of cancer pathology information in healthcare systems and research.

@@ -1,0 +1,7 @@
+This standard aims to improve hypertension management by standardizing how healthcare systems exchange information about blood pressure measurements taken by patients at home. It focuses on self-measured blood pressure (SMBP) data, which is crucial for diagnosing and managing hypertension effectively.
+
+The standard outlines how SMBP data should be formatted and shared between devices, patient-facing platforms, and EHRs. It defines specific FHIR profiles for representing SMBP data, average readings, and associated heart rates. The standard also describes common scenarios for data exchange and provides a clear workflow diagram showing how information flows between different actors in the SMBP process.
+
+Key benefits include increased accuracy in hypertension diagnosis, improved patient monitoring, and reduced clinician burden. Patients can better track their blood pressure over time and communicate with healthcare providers. Clinicians receive structured SMBP data that integrates easily into their workflows, enabling more effective remote monitoring and treatment adjustments.
+
+This standard aligns with initiatives like the CDC Million Hearts 2027 and AHA's National Hypertension Council Initiative, which promote SMBP as an evidence-based strategy for improving cardiovascular health outcomes.

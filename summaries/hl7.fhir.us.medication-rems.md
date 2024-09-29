@@ -1,0 +1,7 @@
+This standard aims to improve the management of Risk Evaluation and Mitigation Strategies (REMS) for medications with serious safety concerns in the United States. REMS programs ensure these medications are used safely by requiring specific steps from prescribers, patients, and pharmacists. The standard focuses on enhancing information exchange between prescriber systems and REMS Administrators during medication ordering and patient encounters.
+
+Key features include real-time REMS alerts and guidance for prescribers, automated communication between prescribers and REMS Administrators, and integration of REMS information into electronic prescriptions. The standard leverages FHIR resources and profiles to exchange information securely and consistently.
+
+Prescribers benefit from timely alerts and reduced manual work. Patients may experience faster prescription fulfillment and fewer treatment delays. Pharmacists receive REMS information electronically with prescriptions, improving their workflows. REMS Administrators gain efficient methods for exchanging information and managing programs.
+
+The standard supports compliance with FDA mandates for REMS programs and aligns with NCPDP SCRIPT for electronic prescribing. It emphasizes adherence to security and privacy guidelines to protect patient data.

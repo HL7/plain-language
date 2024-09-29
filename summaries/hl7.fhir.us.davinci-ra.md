@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of risk adjustment coding gap information between healthcare payers and providers in the United States. It focuses primarily on Medicare Advantage but can be applied to other risk adjustment models.
+
+The standard introduces a structured Risk Adjustment Coding Gap Report format using FHIR resources. This report conveys information about coding gaps, including suspect type, evidence status, and supporting clinical evidence. It also introduces Digital Condition Categories, which automate the evaluation of coding gaps using clinical data.
+
+Key features include the ability for providers to retrieve coding gap reports from payers using standardized queries, and a mechanism for providers to submit clinical evidence to payers for gap closure or invalidation. Providers can also add remarks to coding gap reports, indicating actions taken during patient encounters.
+
+This standard benefits payers by improving data accuracy and potentially automating coding gap evaluation. Providers experience reduced administrative burden and a clear process for addressing coding gaps. It also contributes to the financial stability of Medicare Advantage and other risk adjustment programs by improving coding accuracy.

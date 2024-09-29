@@ -1,0 +1,7 @@
+This standard, known as Minimal Common Oncology Data Elements (mCODE), aims to improve cancer care and research in the United States by standardizing how cancer-related information is represented and shared electronically. It defines specific profiles for core cancer data elements including patient demographics, diagnosis, staging, tumor markers, treatments, and outcomes.
+
+mCODE leverages standardized medical terminologies to ensure consistent coding of data. It also provides clear guidelines on how healthcare systems should implement and process this information. A key feature is the mCODE Patient Bundle, which allows for exchanging comprehensive cancer-related information for a patient.
+
+The standard is designed to benefit oncologists, healthcare providers, and researchers by facilitating better care coordination and enabling large-scale data analysis. It aligns with the US Core FHIR profiles and extends the Genomics Reporting standard for representing genetic data. mCODE also addresses requirements specified in the Centers for Medicare & Medicaid Services' Enhancing Oncology Model for improved cancer care.
+
+By promoting interoperability among different healthcare systems, mCODE aims to support more informed treatment decisions and advancements in cancer research.

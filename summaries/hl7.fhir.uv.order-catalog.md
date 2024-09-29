@@ -1,0 +1,7 @@
+This standard aims to create a unified approach for representing and sharing catalogs of medical products, including medications and devices, in electronic healthcare systems. It focuses on enabling healthcare providers and systems to search for and retrieve product information consistently across different platforms.
+
+The standard utilizes FHIR resources like MedicationKnowledge and DeviceDefinition, extending them with specific profiles to meet the needs of medical product catalogs. It defines search parameters for efficient product retrieval and introduces a CatalogHeader profile to standardize catalog metadata.
+
+A key feature is the provision of mappings to fields in regulatory device databases like GUDID (US) and EUDAMED (EU), facilitating data exchange with these sources. The standard also leverages existing terminologies such as SNOMED CT, LOINC, and ATC for classifying and describing medical products.
+
+Healthcare providers benefit from standardized access to product information for prescribing and ordering. Healthcare systems can integrate these catalogs into their workflows, enabling automation and reducing manual data entry. Software developers can use the standard to build systems that exchange medical product catalog data seamlessly.

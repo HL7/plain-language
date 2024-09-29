@@ -1,0 +1,7 @@
+This standard, known as SMART App Launch, provides a secure framework for third-party applications to connect with and access data from EHRs and other FHIR-based systems. It enables apps to launch within an EHR session or independently, retrieving patient data, user information, and contextual details to deliver various healthcare functionalities.
+
+SMART App Launch uses OAuth 2.0 for authorization, supporting both public and confidential clients. It employs a system of "scopes" to define specific data access permissions that apps can request. The standard supports both standalone app launches and launches within an existing EHR session, accommodating diverse app workflows.
+
+Key features include the ability to communicate contextual information from EHRs to launched apps, token introspection for validating access tokens, and a standard for publishing branding information about healthcare providers. It also offers an experimental capability for apps to store small amounts of configuration data in the EHR.
+
+This standard benefits app developers by providing a consistent framework for EHR integration, while EHR vendors gain specifications for supporting third-party app integration. Healthcare providers can access a wider ecosystem of apps to enhance their workflows, and patients may gain access to apps that leverage their health data for personalized services.

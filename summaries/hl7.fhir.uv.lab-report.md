@@ -1,0 +1,7 @@
+This standard aims to create a universal format for laboratory reports using FHIR. It covers common tests in areas like clinical biochemistry, hematology, and microbiology. The standard supports both document-based and data-centric representations of lab reports, accommodating different legal and technical requirements across countries.
+
+Key features include scalable representation of lab reports, standardized data elements, and guidance on recording traceability to certified reference materials. It also provides clear definitions for managing the statuses of reports and individual observations, as well as specific guidance on representing complex microbiology test workflows.
+
+The standard aligns with European regulations on medical devices and references ISO standards related to metrological traceability. It incorporates concepts from terminology systems like LOINC, SNOMED CT, and NPU for standardized coding of lab tests and specimens.
+
+Laboratories benefit from a consistent way to structure and exchange reports, while healthcare providers receive results in a uniform format. Software developers gain clear specifications for building interoperable systems that handle laboratory data effectively.

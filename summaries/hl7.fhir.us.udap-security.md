@@ -1,0 +1,7 @@
+This standard aims to improve security for healthcare applications that access and share patient data using FHIR. It focuses on both consumer-facing apps and those used between healthcare organizations. The standard provides a unified approach to security, making it easier for developers to create interoperable and secure applications.
+
+Key features include the use of modern security protocols like OAuth 2.0 and OpenID Connect, as well as advanced techniques such as digital certificates and private keys for stronger authentication. It also introduces a standardized way to communicate the purpose and context of data requests between healthcare organizations.
+
+The standard benefits multiple stakeholders. Healthcare app developers get clear guidance on building secure FHIR-based applications. Healthcare organizations can more easily exchange data securely with other entities, improving care coordination. Patients ultimately benefit from more secure access to their health information and better-coordinated care.
+
+This standard aligns with recommendations from the ONC FHIR at Scale Taskforce, contributing to broader efforts to promote secure FHIR adoption in healthcare. It also supports compliance with privacy regulations like HIPAA by providing robust mechanisms for secure data access and authorization.

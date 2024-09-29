@@ -1,0 +1,7 @@
+This standard aims to improve healthcare by making clinical practice guidelines (CPGs) machine-readable using FHIR. Traditionally, CPGs were written in plain language, leading to inconsistent interpretation and application. The standard creates a digital format for these guidelines, allowing computers to understand and apply them consistently.
+
+The standard streamlines CPG development, sharing, and implementation. It reduces duplicate efforts by providing a common format, minimizing inconsistencies across healthcare organizations. This accelerates the adoption of best practices into clinical workflows and enables better measurement of guideline compliance and effectiveness.
+
+Key features include a conceptual knowledge architecture separating patient state, care plans, and workflow execution. It uses Clinical Quality Language (CQL) to express CPG logic in a computable format and defines a standardized lifecycle for guideline activities.
+
+The standard benefits multiple stakeholders. Guideline developers gain structured tools for creating computable CPGs. Healthcare providers can more easily integrate guidelines into their systems. Clinicians receive more consistent decision support based on best practices. Ultimately, patients may experience improved quality and consistency of care based on up-to-date clinical guidelines.

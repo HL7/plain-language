@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare data access is managed and controlled. It focuses on enhancing FHIR's Permission resource to handle access control more effectively across various healthcare scenarios. The standard introduces new ways to encode patient consent rules and implement granular access controls, especially for bulk data sharing.
+
+Key features include a use-case driven approach to refine the Permission resource, methods for expressing consent preferences, and techniques for applying access control rules to specific data elements. It also explores how to implement organization-wide access policies and utilize security tags for fine-grained control.
+
+The standard benefits multiple stakeholders. Healthcare providers gain a more flexible way to manage data access while complying with privacy regulations. Patients get improved control over their data sharing preferences. Healthcare organizations can implement consistent access control frameworks, while researchers and public health agencies can access necessary data while respecting privacy requirements.
+
+This work aligns with HIPAA regulations, particularly in supporting patient directories and patients' rights to restrict data disclosure. It also incorporates established coding systems for categorizing consent documents and defining data security levels.

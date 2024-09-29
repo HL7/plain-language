@@ -1,0 +1,5 @@
+This standard aims to streamline the sharing of health research data across different networks in the United States. It provides a way to convert data from four major research networks (PCORNet, i2b2/ACT, OMOP, and Sentinel) into a common FHIR format. This allows researchers to more easily combine and analyze data from multiple sources, which is particularly useful for patient-centered outcomes research and drug safety monitoring.
+
+The standard includes detailed mappings between the different data models and FHIR, as well as guidance on how to handle specific data elements and vocabularies. It envisions the creation of automated tools to perform these data conversions, making it easier for research networks to participate in data sharing initiatives.
+
+Key beneficiaries include researchers who can now access a wider pool of standardized data, and federal agencies like the FDA and CDC who can use this data for regulatory decision-making and public health surveillance. While not direct users, patients may ultimately benefit from the improved research capabilities this standard enables.

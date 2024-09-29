@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare providers share information about a patient's cognitive status, particularly during transitions between care settings like hospitals and nursing homes. It focuses on standardizing the exchange of data related to mental function, memory, and decision-making ability.
+
+The standard defines specific ways to structure cognitive status information using FHIR. It supports various types of cognitive assessments, from fully standardized tests to more flexible evaluations. By promoting consistent data formats and coding systems, it ensures that all care providers can access and understand a patient's cognitive health history.
+
+Key benefits include better-coordinated care, especially for post-acute care providers like skilled nursing facilities and home health agencies. Hospitals, primary care physicians, and specialists can make more informed decisions with access to comprehensive cognitive status data. Patients and their families may also gain easier access to this information through secure digital platforms.
+
+The standard aligns with the requirements of the IMPACT Act of 2014, which mandates standardized assessment data exchange for post-acute care settings. It also incorporates security measures to protect patient privacy in compliance with HIPAA regulations.

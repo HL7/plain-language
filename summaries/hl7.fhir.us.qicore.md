@@ -1,0 +1,7 @@
+This standard, known as QI-Core, aims to improve healthcare quality measurement and clinical decision support in the United States. It defines how specific types of health data should be structured and shared for quality improvement purposes.
+
+QI-Core is particularly useful for organizations developing quality measures and clinical decision support systems. It provides a common framework for defining data elements needed to calculate quality measures, making it easier to develop and share these measures across different systems. It also ensures that clinical decision support systems can access and interpret patient data consistently.
+
+The standard focuses on commonly collected clinical data elements relevant to most quality improvement applications. It introduces specific ways to represent situations where an action or event did not occur, which is crucial for accurate quality measurement. QI-Core also mandates the use of standardized vocabularies for specific data elements, promoting consistency.
+
+Key beneficiaries include measure developers, clinical decision support system creators, healthcare providers, and indirectly, patients. Researchers may also find QI-Core useful for quality improvement and population health studies. The standard aligns with US Core, supporting compatibility with existing US healthcare data standards.

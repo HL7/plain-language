@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare knowledge artifacts like clinical guidelines, decision support rules, and quality measures are managed throughout their lifecycle. It provides a structured approach for creating, sharing, and implementing these artifacts across different healthcare systems.
+
+The standard introduces capability profiles that define clear expectations for artifact content at various stages. It also establishes methods for versioning and managing dependencies between artifacts, ensuring consistent behavior over time. 
+
+Key features include operations for packaging artifacts with their dependencies, support for diverse distribution methods, and integration with terminology services. These capabilities help streamline the process of developing and implementing knowledge artifacts in healthcare settings.
+
+Healthcare organizations, software developers, and knowledge authors can benefit from this standard. It enables more efficient creation and sharing of clinical guidelines, public health reporting specifications, and quality measures. By providing a common framework for managing these artifacts, the standard supports more reliable and consistent implementation of healthcare knowledge across different systems and settings.

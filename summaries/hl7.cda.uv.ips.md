@@ -1,0 +1,7 @@
+This standard aims to create a consistent format for International Patient Summaries (IPS) using the HL7 CDA R2 framework. It provides a blueprint for generating electronic health record summaries that can be easily shared and understood across different healthcare systems, particularly in unplanned or cross-border care situations.
+
+The standard improves upon previous approaches by shifting to FHIR, introducing clear methods for representing unknown or absent information, enhancing medication details, and supporting multiple languages. It uses templated CDA with open templates and versioning to ensure flexibility and future-proofing.
+
+Key features include the use of international terminologies like SNOMED CT and LOINC to ensure global interoperability. The standard directly implements specifications from the EN ISO 27269 standard for IPS and incorporates lessons from European cross-border health initiatives.
+
+Patients benefit from having a standardized summary of their key health information that can be readily accessed by healthcare providers in different settings. Providers gain efficient access to essential patient information, enabling more informed clinical decisions. EHR system vendors can use the standard to develop systems capable of creating, exchanging, and interpreting IPS documents.

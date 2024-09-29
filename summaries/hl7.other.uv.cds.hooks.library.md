@@ -1,0 +1,7 @@
+This standard aims to improve how clinical decision support (CDS) tools integrate with EHRs and other health IT systems. It defines specific points in clinical workflows, called "hooks," where CDS services can be triggered to provide advice or recommendations to clinicians. The standard replaces older, less-defined hooks with more general and workflow-specific ones, allowing for broader application of CDS beyond just medication ordering.
+
+Key features include a set of defined hooks (such as "order-sign" and "patient-view"), specification of clinical data available at each hook, and use of FHIR for data representation. A maturity model helps assess the readiness of different hooks.
+
+The standard benefits clinicians by providing timely advice during their workflows, potentially improving decision-making. CDS developers gain a standardized framework for building and integrating their tools, while health IT vendors can more easily incorporate third-party CDS services into their systems. Ultimately, patients may benefit from improved clinical decisions and health outcomes.
+
+By promoting standardized CDS integration, this standard can contribute to better adherence to clinical guidelines and support patient safety and quality of care initiatives.

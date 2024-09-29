@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare providers and organizations in the United States share and verify their directory information. It creates a framework for a national directory of healthcare providers and services, making it easier for various stakeholders to access accurate, up-to-date information.
+
+The standard defines how to structure and exchange data about practitioners, organizations, locations, and healthcare services. It includes specific details relevant to directories, such as whether a provider is accepting new patients, accessibility features, and service delivery methods. The standard also outlines processes for submitting data, validating its structure, and verifying its accuracy against primary sources.
+
+Key beneficiaries include payers, who can maintain accurate provider networks; providers, who can streamline data sharing; and health information exchanges, who can facilitate better care coordination. Government agencies can use the standard for regulatory oversight and program administration.
+
+The standard incorporates security considerations to protect sensitive information and aligns with HIPAA requirements. It specifies how to use APIs for data exchange and includes search parameters to help users find relevant information efficiently.

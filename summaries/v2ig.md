@@ -1,0 +1,5 @@
+This standard aims to modernize the widely-used HL7 Version 2 (v2) messaging format by representing it within the FHIR framework. It carefully maps v2 data types and structures to their FHIR equivalents, addressing challenges like subtle differences in definitions and constraints. The standard uses FHIR profiles and extensions where necessary to capture v2-specific nuances.
+
+Key features include detailed analysis of data type relationships between v2 and FHIR, and the application of derivations and constraints to ensure accurate representation of v2 elements. This approach bridges the gap between older v2 systems and newer FHIR-based technologies.
+
+The standard primarily benefits healthcare IT developers working with both v2 and FHIR systems, as well as healthcare organizations needing to integrate legacy v2 systems with modern FHIR solutions. By improving interoperability between these systems, it supports more efficient data exchange in healthcare settings.

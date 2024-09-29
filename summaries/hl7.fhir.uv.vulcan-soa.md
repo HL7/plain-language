@@ -1,0 +1,5 @@
+This standard aims to improve how clinical trial schedules are shared electronically. It focuses on the "Schedule of Activities" (SoA), which outlines what tasks need to be done during a trial, when, and in what order. The standard provides a blueprint for representing this information using FHIR, making it easier for different healthcare and research systems to exchange data seamlessly.
+
+Key features include a workflow-based approach to define activities and their sequencing, the concept of "visit windows" for flexible scheduling, and guidance on representing investigational product administration. The standard also aligns with Good Clinical Practice guidelines and establishes a mapping to the CDISC Operational Data Model, a widely used format in clinical research.
+
+Primary beneficiaries include software developers building clinical trial systems, researchers conducting studies, trial sponsors, and research sites. By standardizing SoA representation, this guide aims to improve efficiency in trial setup, data collection, and analysis, potentially leading to smoother execution of clinical trials.

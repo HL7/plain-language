@@ -1,0 +1,7 @@
+This standard aims to streamline the reporting of healthcare-associated infections (HAIs) in long-term care facilities (LTCFs) to the Centers for Disease Control and Prevention's (CDC) National Healthcare Safety Network (NHSN) in the United States. It provides a digital format for nursing homes to submit infection data directly from their EHR systems to the CDC, replacing manual paper and web-based reporting methods.
+
+The standard uses FHIR to define questionnaires that mirror existing NHSN forms, making it easier for software developers to implement. It also incorporates standardized value sets to ensure consistent coding of key data elements.
+
+By enabling electronic submission of HAI data, this standard is expected to reduce the reporting burden on LTCF staff, improve data quality, and increase efficiency. It will provide the CDC and public health officials with higher quality, standardized data for surveillance and analysis of HAIs in LTCFs.
+
+The primary users of this standard are LTCF software developers who will implement the reporting capabilities in their systems. It directly supports compliance with the CDC's NHSN reporting requirements for LTCFs and aligns with broader US healthcare interoperability efforts.

@@ -1,0 +1,7 @@
+This standard aims to improve patient matching and digital identity management in healthcare. It provides guidance on verifying patient identities and matching patient records across different healthcare organizations using FHIR. The standard introduces specialized profiles for patient data, incorporating weighted attributes and minimum data requirements to enhance match accuracy.
+
+Key features include an extended FHIR match operation for cross-organizational use, a scoring system to assess match quality, and defined identity assurance levels inspired by NIST standards. The standard also promotes the use of globally unique identifiers for individuals and addresses specific requirements for matching in consumer-facing scenarios where data privacy is crucial.
+
+Healthcare providers and organizations benefit from improved care coordination and efficient data sharing. Patients gain from more accurate records and reduced medical errors. Health Information Exchanges can enhance their patient matching capabilities, while app developers can implement secure identity verification in their applications.
+
+The standard aligns with NIST 800-63 Digital Identity Guidelines and acknowledges HIPAA Privacy and Security Rules, ensuring robust security practices and protection of patient data.

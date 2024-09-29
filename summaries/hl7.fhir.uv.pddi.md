@@ -1,0 +1,5 @@
+This standard aims to improve drug-drug interaction (PDDI) alerts in EHRs. It focuses on providing more specific and actionable alerts to clinicians during medication ordering, reducing alert fatigue and improving patient safety. The standard utilizes patient-specific data to tailor alerts and make them more relevant. It provides specific recommendations and actions clinicians can take to mitigate potential PDDIs.
+
+Key features include a standardized model for representing PDDI knowledge, integration with EHR workflows, and the use of FHIR resources to exchange patient data. The standard employs a human-readable and computable language to express PDDI logic, facilitating knowledge artifact development and maintenance. It also optimizes performance by pre-fetching relevant patient data.
+
+Clinicians benefit from more accurate, relevant, and actionable PDDI alerts, leading to better-informed prescribing decisions. Patients ultimately benefit from improved medication safety. Developers and knowledge engineers gain clear guidance on implementing standardized PDDI clinical decision support services, simplifying artifact creation and maintenance.

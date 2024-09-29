@@ -1,0 +1,5 @@
+This standard facilitates the exchange of healthcare information between different versions of FHIR, specifically R4 and R5. It provides detailed mappings for various FHIR resources, ensuring data consistency and meaning preservation during transitions. The standard uses tables and descriptions to illustrate how elements in one version correspond to elements in the other, considering scenarios like direct equivalence, data transformations, and changes in newer versions.
+
+The primary users are health information technology developers and implementers responsible for systems that exchange healthcare data using FHIR. They can use the standard to understand mappings and implement data conversion logic. Healthcare organizations transitioning between FHIR versions also benefit from guidance on migrating their data and maintaining interoperability with other systems.
+
+By enabling smooth data exchange between different FHIR versions, the standard supports broader healthcare interoperability goals. It contributes to compliance with healthcare standards and regulations while promoting data sharing across healthcare systems.

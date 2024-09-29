@@ -1,0 +1,7 @@
+This standard aims to modernize how pharmaceutical quality data is shared within the biopharmaceutical industry. It establishes a structured approach for exchanging information about drug development, manufacturing, suppliers, and quality control measures. The standard organizes data into 14 domains, each representing a major quality concept.
+
+By moving away from unstructured documents like Word files and PDFs, the standard enables real-time data sharing via APIs. This supports faster technology transfer, enhanced facility monitoring, and advanced manufacturing techniques. It also reduces manual processes and improves data accessibility for analysis.
+
+Key features include the use of FHIR resources to represent data in a granular format, the creation of reusable component libraries, and the ability to transform data into other formats when needed for regulatory submissions.
+
+The standard aligns with the content scope of the ICH Common Technical Document (CTD) and references EDQM terminologies for certain pharmaceutical terms. It benefits biopharmaceutical companies, contract manufacturers, labs, regulatory affairs professionals, and software developers by streamlining data management and exchange processes in the pharmaceutical industry.

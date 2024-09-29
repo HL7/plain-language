@@ -1,0 +1,7 @@
+This standard aims to improve how health insurers in the United States share drug formulary information. A drug formulary is a list of medications covered by a health plan, including details on costs and coverage. The standard uses FHIR to create a structured, machine-readable format for formulary data, making it easier for consumers and applications to access and analyze this information.
+
+Key features include specific profiles for insurance plans and medications, custom extensions for formulary-specific details, and search parameters to help find relevant information. The standard also provides guidance on efficiently retrieving large formulary datasets.
+
+By adopting this standard, health insurers can publish their formularies in a consistent, accessible way. This benefits consumers by allowing them to easily compare medication costs across different plans and potentially find lower-cost alternatives. Third-party developers can create applications that use this standardized formulary data to offer cost comparisons and other valuable services.
+
+The standard aligns with US regulatory requirements, particularly those related to Qualified Health Plans on the federal health insurance marketplace. It also relies on RxNorm, a standardized nomenclature for medications, to identify drugs consistently.

@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare providers share information about a person's ability to participate in activities and interact with their environment. It's designed for use in the United States across various care settings, including hospitals, post-acute care facilities, and community-based services.
+
+The standard uses a unified framework based on the World Health Organization's International Classification of Functioning, Disability, and Health (ICF) to categorize observations into health domains. This approach allows for consistent representation of functioning and engagement data, making it easier for different healthcare systems to exchange information.
+
+Key features include profiles for representing individual observations and collections of observations, as well as guidance on capturing structured assessment data. The standard supports the goals of the Improving Medicare Post-Acute Care Transformation (IMPACT) Act by promoting standardization of patient assessments in post-acute care settings.
+
+Healthcare providers, payers, patients, and caregivers all benefit from this standard. It enables better care coordination, reduces administrative burden, and allows patients to access their functioning and engagement information through FHIR-enabled applications.

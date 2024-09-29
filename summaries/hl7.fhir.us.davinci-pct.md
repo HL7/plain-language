@@ -1,0 +1,7 @@
+This standard aims to improve healthcare cost transparency in the United States by facilitating the exchange of financial information between providers and payers. It focuses on standardizing Good Faith Estimates (GFEs) and Advanced Explanations of Benefits (AEOBs) for patients, particularly those who are self-pay or uninsured.
+
+The standard defines how to create, submit, and retrieve GFEs and AEOBs using FHIR resources. It introduces a workflow for coordinating GFEs among multiple providers, allowing for comprehensive cost estimates when a patient's care involves several practitioners or facilities.
+
+Key features include specific profiles for relevant FHIR resources and operations for submitting GFEs to payers and retrieving coordinated GFE bundles. The standard aligns with the No Surprises Act, which requires providers to give patients cost estimates for scheduled or requested services.
+
+Patients benefit from receiving clear cost estimates before receiving care, enabling informed decision-making. Providers can more efficiently create and submit GFEs, while payers can generate accurate AEOBs. Health IT developers can use the standard to build tools that support cost transparency in healthcare.

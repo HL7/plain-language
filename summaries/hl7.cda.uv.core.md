@@ -1,0 +1,7 @@
+This standard aims to represent the Clinical Document Architecture (CDA) specification using FHIR. It supports the exchange of clinical documents, such as patient summaries and discharge notes, between different healthcare systems in a standardized format.
+
+The standard uses FHIR's logical models to represent CDA structures, offering a new way to validate CDA documents using FHIR validators alongside traditional CDA schemas. It incorporates approved extensions for CDA and provides guidance on using FHIRPath to evaluate CDA instances.
+
+Key features include FHIR-based representation of CDA classes and data types, inclusion of approved CDA extensions, and guidance on maintaining human readability in CDA documents. The standard also defines how CDA manages context throughout the document and allows for local extensions while maintaining the integrity of standard elements.
+
+This standard primarily benefits healthcare IT developers implementing systems for clinical document exchange. It also indirectly supports healthcare providers by improving information exchange and interoperability. The standard aligns with the HL7 Reference Information Model and utilizes HL7 Version 3 data types, promoting standardized clinical document exchange across healthcare systems.

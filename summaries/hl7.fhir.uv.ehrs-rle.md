@@ -1,0 +1,5 @@
+This standard provides a framework for tracking and managing changes to health records throughout their lifecycle. It defines 29 specific events that can occur with health data, such as creation, updates, access, and deletion. The standard specifies how to use FHIR resources to capture detailed metadata about each of these events, including who performed an action, what was done, when and where it occurred, and why.
+
+The standard is designed to ensure a trustworthy and auditable record of all actions taken on patient data. This supports legal compliance, clinical care, and business operations in healthcare settings. It aligns with international standards for health record management and supports compliance with regulations like HIPAA in the United States.
+
+EHR developers can use this standard to implement consistent logging capabilities. Healthcare providers and organizations benefit from improved data integrity and clearer audit trails. The standardized approach also supports better data governance and risk management in healthcare settings.

@@ -1,0 +1,5 @@
+This standard aims to streamline how healthcare facilities in the United States report data about patients hospitalized with respiratory viruses like influenza, COVID-19, and RSV to the Respiratory Virus Hospitalization Surveillance Network (RESP-NET). It automates the process of identifying and reporting cases, reducing the manual workload for healthcare providers and improving the timeliness and quality of data shared with public health agencies.
+
+The standard leverages FHIR and incorporates features such as secure authentication, real-time notifications, and predefined reporting logic. It specifies the exact data elements required for RESP-NET reports, ensuring consistency across different healthcare facilities.
+
+By adopting this standard, healthcare providers can more efficiently contribute to national surveillance efforts for respiratory viruses. Public health agencies, including the CDC and state health departments, benefit from receiving standardized, timely data to support their research and response efforts. This improved data flow enables better monitoring of respiratory virus trends and more informed public health decision-making.

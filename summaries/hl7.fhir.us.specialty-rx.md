@@ -1,0 +1,7 @@
+This standard aims to streamline the process of fulfilling specialty medication prescriptions in the United States. It focuses on standardizing the exchange of patient information needed for medication dispensing, billing, program enrollment, and care management. The standard defines specific workflows for sharing data between pharmacies, specialty hubs, manufacturers, and healthcare providers.
+
+Key features include standardized data exchange methods, consent management processes, and guidelines for patient matching across systems. It outlines both request-based and proactive information sharing workflows, supporting various implementation scenarios. The standard also provides clear instructions for handling errors and missing data.
+
+Pharmacies benefit from easier access to patient information for accurate dispensing and billing. Specialty hubs and manufacturers can more efficiently enroll patients in support programs and coordinate care. Healthcare providers experience reduced manual processes and better integration with EHR workflows.
+
+The standard aligns with US Core profiles and incorporates SMART app functionality for scenarios requiring user interaction. It emphasizes adherence to security principles and patient privacy protection in accordance with relevant regulations.

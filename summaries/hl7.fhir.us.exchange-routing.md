@@ -1,0 +1,7 @@
+This standard addresses how healthcare systems exchange FHIR data when intermediaries like clearinghouses or health information exchanges are involved. It establishes a unified approach for both direct and intermediary-based communication, simplifying development and improving scalability.
+
+The standard introduces a passive intermediary model, where intermediaries primarily route data without modifying it. It uses a consistent public URL to address destination systems and supports both real-time and delayed data exchange patterns. Security and trust are established directly between the sender and final recipient, with intermediaries not playing an active role in authentication.
+
+Key features include exception handling guidelines for both intermediaries and destination systems. The standard aligns with core FHIR principles and leverages existing HTTP standards for routing information.
+
+Primary beneficiaries are developers and implementers of healthcare IT systems, who can use this standard to build interoperable systems for exchanging FHIR data. Healthcare providers and payers also benefit from improved data exchange, potentially leading to better care coordination and more efficient administrative processes.

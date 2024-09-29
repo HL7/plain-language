@@ -1,0 +1,7 @@
+This standard aims to streamline the exchange of health data for research purposes, focusing on efficiently onboarding healthcare organizations into research networks like PCORnet. It addresses the current challenges of slow, fragmented data extraction and loading processes that can take weeks or months to complete.
+
+The standard leverages FHIR resources and APIs to create a more efficient approach. It uses standardized data profiles, bulk data access capabilities, and secure authorization methods to facilitate the transfer of large datasets from healthcare providers to research networks. The standard also introduces "Knowledge Artifacts" that encapsulate data extraction and transformation logic, further automating the process.
+
+Key beneficiaries include research networks, healthcare organizations contributing data, researchers, and developers creating data exchange applications. By standardizing the data exchange process, the standard aims to reduce onboarding time, improve data quality, and ultimately support more efficient health research.
+
+While focused on research data exchange, this standard aligns with broader healthcare data initiatives, including the use of common data models for research and established bulk data access methods.

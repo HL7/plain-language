@@ -1,0 +1,7 @@
+This standard aims to modernize public health reporting in the United States by streamlining the submission of surveillance data to the CDC's National Healthcare Safety Network (NHSN). It focuses on making reporting faster, more accurate, and less burdensome for healthcare facilities.
+
+The standard introduces a measure-driven approach using digital quality measures to define data requirements. This allows for easier adjustments to reporting criteria and leverages data already available through EHR FHIR APIs. It provides a library of FHIR profiles and examples for common data elements, ensuring consistent data submissions.
+
+Key features include different reporting scenarios to accommodate various technical capabilities, and capability statements that define roles for different actors in the data exchange process. The standard aligns with the CDC's Data Modernization Initiative and incorporates privacy and security guidelines.
+
+Primary beneficiaries include developers creating software for NHSN reporting, healthcare facilities submitting data, and public health agencies like NHSN and CDC. The standard aims to reduce administrative burden for healthcare facilities while providing standardized data for more efficient public health surveillance and analysis.

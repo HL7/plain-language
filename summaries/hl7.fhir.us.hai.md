@@ -1,0 +1,7 @@
+This standard aims to streamline the electronic reporting of Healthcare Associated Infection (HAI) data from hospitals to the Centers for Disease Control and Prevention's (CDC) National Healthcare Safety Network (NHSN) in the United States. It defines how software systems should structure HAI information using FHIR, enabling efficient data exchange for national HAI surveillance efforts.
+
+The standard introduces FHIR-based HAI reporting to NHSN, updating to FHIR R4 and incorporating enhanced patient data collection, including gender identity and multiple race elements. It uses FHIR Questionnaires and QuestionnaireResponses to represent HAI report forms and completed responses, defining profiles for both individual and population-level HAI reports.
+
+Software developers creating systems for healthcare facilities are the primary users of this standard. By adopting it, they can ensure their systems integrate seamlessly with NHSN, facilitating accurate HAI reporting. This supports public health efforts by improving HAI surveillance and prevention, contributing to safer healthcare environments.
+
+The standard aligns with CDC's NHSN data collection protocols and reporting requirements. Data reported to NHSN is protected under the Public Health Service Act, ensuring confidentiality.

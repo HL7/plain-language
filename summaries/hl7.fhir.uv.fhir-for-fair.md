@@ -1,0 +1,5 @@
+This standard aims to make health data more findable, accessible, interoperable, and reusable (FAIR) using FHIR. It provides guidance on enhancing metadata, using specific FHIR resources, and implementing profiles and extensions to capture essential information for FAIRness. The standard aligns with the FAIR Data Maturity Model defined by the Research Data Alliance, offering a structured approach to assess and improve data sharing practices.
+
+The standard focuses on research and data sharing contexts, using real-world case studies to illustrate challenges and benefits. It emphasizes the importance of using FAIR-compliant vocabularies and provides recommendations for selecting and using terminologies within FHIR.
+
+Researchers can use this standard to find, access, and reuse health data more effectively, facilitating collaboration and accelerating discoveries. Health data providers and technical implementers can use it to share data responsibly and maximize the value of their data assets. The standard also supports compliance with data protection regulations by providing mechanisms to capture data usage licenses and consent information.

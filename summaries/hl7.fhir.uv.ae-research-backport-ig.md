@@ -1,0 +1,7 @@
+This standard aims to improve the reporting of adverse events (AEs) in clinical research. It provides a structured way to capture and share AE data using FHIR, focusing on interoperability between EHRs, patient applications, and clinical trial systems.
+
+The standard introduces a specialized profile for AEs in clinical research, adding fields for seriousness criteria, study information, and mitigating actions. It outlines workflows for both pre-market and post-market AE reporting, demonstrating how data can flow between different systems.
+
+Key features include numerous examples of how the standard can be applied in real-world scenarios and guidance on addressing security concerns. The standard aligns with FDA regulations, the MedWatch program, ICH guidelines, and CDISC standards for clinical trials.
+
+This approach benefits multiple stakeholders. Clinical researchers gain a standardized framework for managing AE data. Sponsors can more efficiently collect and report data to regulators. Regulatory authorities receive standardized submissions, potentially streamlining their review processes. Patients can directly report AEs through FHIR-enabled applications, actively contributing to research data collection.

@@ -1,0 +1,7 @@
+This standard aims to streamline the process of submitting and reviewing research studies involving multiple sites. It supports the U.S. National Institutes of Health (NIH) policy requiring a single Institutional Review Board (IRB) for multi-site research. The standard defines seven questionnaires covering key aspects of research studies, such as protocols, consent forms, and adverse events.
+
+By using FHIR, the standard enables efficient data exchange between research sites and the central IRB. It replaces older methods of transferring documents via email or non-integrated systems. This structured approach improves data consistency and reduces manual effort.
+
+The standard benefits researchers, study coordinators, and IRBs by simplifying the application and review process. It reduces administrative burden and can lead to faster study initiation. Research institutions may see reduced costs associated with managing multi-site studies.
+
+The questionnaires align with the Common Rule, the set of federal regulations for human-subjects research. By standardizing the IRB submission process, this standard supports more efficient implementation of the NIH single IRB policy for multi-site research studies.

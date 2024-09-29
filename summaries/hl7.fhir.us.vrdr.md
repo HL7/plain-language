@@ -1,0 +1,5 @@
+This standard aims to modernize and streamline the reporting of death records in the United States. It focuses on facilitating data exchange between state-level Vital Records Offices and the Centers for Disease Control and Prevention (CDC). The standard defines specific formats and structures for death certificates, cause of death information, and related data using FHIR.
+
+Key features include profiles for representing decedents and death circumstances, mappings to legacy data formats, and the use of standardized medical coding systems. The standard also supports linking maternal death records to associated birth or fetal death records and includes coded industry and occupation data.
+
+By adopting this standard, public health agencies can collect, process, and analyze mortality data more efficiently. This supports timely public health surveillance, informs policy decisions, and aids researchers studying mortality trends. The standard aligns with the Vital Statistics Cooperative Program, a national framework for vital records data, ensuring consistency in death reporting across jurisdictions.

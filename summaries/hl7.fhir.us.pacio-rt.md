@@ -1,0 +1,7 @@
+This standard aims to improve the organization and accessibility of patient data in post-acute care settings, where patients may receive care for months or years. It introduces "Re-assessment Timepoints," which divide extended admissions into smaller, more manageable time blocks. These timepoints reflect the progression of a patient's care and condition over time.
+
+The standard uses FHIR resources to represent Re-assessment Timepoints, defining a specific structure that includes the period covered, the entity defining the timepoint, and links to relevant clinical data. It also establishes search parameters to facilitate querying for these timepoints within encounters.
+
+By organizing data into meaningful time blocks, the standard makes it easier for healthcare providers to access and understand patient information during long-term care. It's particularly useful for clinicians in care planning and decision-making, as well as for payers conducting audits and analyzing care provided over time.
+
+The standard aligns with relevant regulations and assessment instruments, such as Medicare assessment instruments and conditions of participation. It benefits healthcare IT developers, clinicians, payers, and quality reporting agencies by providing a structured approach to managing and accessing long-term patient data in post-acute care settings.

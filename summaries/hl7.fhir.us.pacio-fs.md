@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of patient functional status data in the United States, particularly during transitions between post-acute care settings and home or community-based services. It focuses on mobility, self-care, and domestic life functioning observations.
+
+The standard defines specific FHIR profiles for representing functional status data, including collections of observations, individual data points, summaries of prior functioning, and records of assistive devices used during assessments. It emphasizes the use of standardized coding systems like LOINC and SNOMED to ensure consistent data interpretation.
+
+Healthcare providers in post-acute care and home-based services can use this standard to share crucial functional status information more effectively. This improved data exchange supports better care coordination and planning. Patients may experience smoother care transitions as a result of more comprehensive information sharing between their care providers.
+
+The standard aligns with the requirements of the Improving Medicare Post-Acute Care Transformation (IMPACT) Act of 2014, which mandates standardized data exchange for post-acute care settings. Researchers may also benefit from access to more standardized functional status data for analysis and quality improvement initiatives.

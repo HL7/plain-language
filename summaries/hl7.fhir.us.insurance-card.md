@@ -1,0 +1,7 @@
+This standard aims to modernize how health insurance card information is shared digitally in the United States. It provides a consistent way for health plans to make insurance card data available electronically, either through APIs or SMART Health Links. This allows consumers to access and share their insurance information digitally, offering a more convenient alternative to physical cards.
+
+The standard addresses several challenges in representing insurance card data. It can include multiple beneficiaries associated with a plan, provide both unique identifiers and consumer-friendly names for networks, express copays as text or numerical values, and standardize the inclusion of card images.
+
+Key features include the ability to create verifiable, tamper-proof digital insurance cards that consumers can store and share. It also ensures compatibility with existing healthcare systems by aligning with US Core profiles and supporting the SMART App Launch framework for secure access.
+
+This standard benefits patients and consumers by giving them easy access to their insurance information. Health plans can use it to improve member experience, while app developers can create innovative tools for displaying insurance data. Healthcare providers may also benefit from more efficient insurance verification processes.

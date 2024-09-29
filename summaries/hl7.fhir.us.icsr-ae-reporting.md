@@ -1,0 +1,7 @@
+This standard aims to improve the reporting of adverse events (AEs) related to biological products like vaccines and blood transfusions in the United States. It focuses on using data from EHRs to generate reports that meet the FDA's requirements for Individual Case Safety Reports (ICSR).
+
+The standard outlines a process for automatically detecting potential AEs using algorithms that analyze patient data. When an AE is identified, the system creates a standardized report using FHIR profiles. These profiles ensure that all necessary information is included and formatted correctly for submission to regulatory authorities.
+
+Key features include automated AE detection, standardized reporting formats, and a defined workflow for creating and submitting reports. The standard also provides mappings to ensure compatibility with FDA and international reporting requirements.
+
+This approach offers several benefits. Healthcare providers can report AEs more easily and accurately. Regulatory bodies receive more comprehensive and consistent data for safety monitoring. Researchers gain access to higher quality information for analysis. Ultimately, this improved reporting system enhances the ability to identify and respond to safety concerns related to biological products, benefiting patient safety.

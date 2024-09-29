@@ -1,0 +1,7 @@
+This standard aims to improve healthcare communication in the United States by enabling real-time notifications about important patient events like hospital admissions, transfers, and discharges. It provides a structured way for healthcare systems to send and receive these alerts, enhancing care coordination among providers, hospitals, clinics, and health plans.
+
+The standard uses FHIR messaging to package notifications as bundles containing relevant patient information. It supports direct communication between healthcare entities and allows for intermediaries like Health Information Exchanges to route notifications. Security and privacy measures are emphasized to protect sensitive patient data.
+
+By standardizing the notification process, this guide aims to reduce technical complexity for healthcare organizations. It enables faster interventions and better care transitions, potentially leading to improved patient outcomes and reduced healthcare costs.
+
+The standard aligns with US regulations, particularly addressing the need for hospitalization notifications highlighted in recent Centers for Medicare & Medicaid Services rules. It benefits healthcare providers, health plans, and ultimately patients by facilitating more timely and coordinated care delivery.

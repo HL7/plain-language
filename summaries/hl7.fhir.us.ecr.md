@@ -1,0 +1,7 @@
+This standard aims to improve electronic case reporting (eCR) in the United States healthcare system. It provides a structured format for healthcare providers to automatically send initial case reports to public health agencies for diseases and conditions like Zika virus or Chlamydia. The standard defines how to create and send these reports directly from EHRs, making the process faster and more accurate.
+
+Key features include a standardized format for initial case reports and a structured response from public health agencies. This response confirms receipt, provides guidance, and indicates whether the case meets reporting requirements. The standard also includes a mechanism for public health agencies to distribute reporting guidelines and trigger codes to healthcare providers.
+
+By streamlining the reporting process, this standard reduces the burden on healthcare providers while ensuring public health agencies receive timely, complete, and standardized case data. This improved data exchange supports more effective disease surveillance and public health interventions, potentially leading to faster outbreak detection and better control of communicable diseases.
+
+The standard aligns with US Core FHIR profiles and supports compliance with legal requirements for disease reporting to public health agencies.

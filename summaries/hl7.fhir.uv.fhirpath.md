@@ -1,0 +1,5 @@
+This standard defines FHIRPath, a language for navigating and extracting data from healthcare information models, particularly FHIR. FHIRPath provides a simple, standardized way to express conditions, constraints, and data selections in a platform-independent manner. It employs a path-based navigation model, operating on a tree representation of data, and features a fluent syntax with collection-centric operations.
+
+FHIRPath is designed to work with various healthcare information models, not just FHIR. Its lightweight nature makes it easier to implement and use compared to more complex languages. The standard supports literals, operators, functions, and type checking, with its formal syntax defined using an Antlr 4.0 grammar.
+
+Developers can use FHIRPath to create interoperable healthcare applications with streamlined data navigation and manipulation. This enables the development of more powerful decision support systems, quality measures, and clinical workflows. FHIRPath aligns with the Clinical Quality Language (CQL) standard, simplifying data traversal for quality measure definitions.

@@ -1,0 +1,7 @@
+This standard, called the Vital Records Common Profiles Library (VRCL), aims to streamline the exchange of vital records information in the United States. It focuses on birth, death, and fetal death records, providing a set of reusable data elements and definitions that can be used across different vital records systems.
+
+The VRCL is designed to help public health agencies, particularly the CDC's National Center for Health Statistics, collect and process vital records data more efficiently. It standardizes how information like race, ethnicity, addresses, and dates are recorded, making it easier for different systems to share and understand this data.
+
+Key features include clear mappings between traditional data formats and FHIR resources, as well as support for data validation through edit flags. This helps ensure the accuracy and completeness of vital records submissions.
+
+The standard benefits various stakeholders. Public health agencies can receive more consistent, high-quality data. Vital Records Offices and software vendors can streamline their reporting processes. Researchers gain access to more standardized data for public health analysis. Ultimately, this contributes to improved public health surveillance and more accurate vital statistics for the nation.

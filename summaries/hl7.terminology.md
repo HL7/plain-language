@@ -1,0 +1,5 @@
+This standard, known as the Unified Terminology Governance (UTG), aims to establish a standardized approach to managing healthcare terminologies. It creates a single source of truth for code systems, value sets, and naming systems used in healthcare information technology. The UTG organizes terminologies by type, status, and source, incorporating FHIR as a key component.
+
+The standard includes features for version control and a governance framework to manage updates and changes. It supports healthcare IT developers in creating interoperable systems, helps healthcare professionals communicate more effectively, and allows healthcare organizations to streamline their terminology management.
+
+By providing a unified set of terminologies, the UTG supports improved data quality and more efficient healthcare processes. It aligns with broader healthcare initiatives that promote standardization and interoperability in the industry.

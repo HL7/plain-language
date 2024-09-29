@@ -1,0 +1,7 @@
+This standard aims to improve how behavioral health data is shared and used in the United States healthcare system. It defines specific data elements for mental health and substance use disorders, addressing the historical fragmentation of this information. The standard aligns with existing healthcare data frameworks like USCDI and SAMHSA reporting requirements.
+
+Healthcare providers can use this standard to access and share patient information more effectively, leading to better-coordinated care. It supports various behavioral health data types, including patient demographics, diagnoses, medications, assessments, and social determinants of health.
+
+The standard is designed for use by clinicians, psychiatrists, therapists, and care managers in different healthcare settings. It also provides guidance for healthcare IT developers to ensure their systems can accurately handle behavioral health data.
+
+By standardizing behavioral health data, this framework supports improved care coordination and decision-making. It also facilitates research and analysis in the field, potentially informing policy decisions and quality improvement efforts. Ultimately, patients may benefit from a more cohesive approach to their behavioral healthcare.

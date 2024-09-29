@@ -1,0 +1,7 @@
+This standard introduces the Clinical Quality Language (CQL), a specialized language for expressing clinical knowledge in a standardized and computable format. CQL aims to bridge the gap between Clinical Decision Support and Clinical Quality Measurement, enabling the sharing and reuse of clinical logic across healthcare domains.
+
+CQL offers several key features. It provides a syntax-independent representation of clinical logic that simplifies implementation and machine processing. It also offers a high-level, human-readable syntax accessible to clinical domain experts. CQL supports data model independence, allowing integration with various healthcare data models including FHIR.
+
+The standard benefits a range of stakeholders. Clinical domain experts can author and read quality artifacts more easily. Developers can build complex clinical logic and shared libraries. Healthcare providers benefit from improved interoperability in decision support and quality measurement. Quality agencies can develop and distribute measures more efficiently. Health IT vendors can incorporate CQL into their systems, enhancing functionality.
+
+CQL aligns with several HL7 standards and is referenced by the FHIR Clinical Reasoning Module. It supports the goals of Meaningful Use by promoting interoperable electronic quality measures. Overall, CQL aims to reduce duplication of effort in healthcare quality improvement and foster better sharing of clinical knowledge.

@@ -1,0 +1,7 @@
+This standard provides a way to add security labels to health information in FHIR, allowing for more precise control over who can access and use sensitive patient data. It's designed for use in trusted healthcare networks where participants agree to follow the rules set by these labels.
+
+The standard introduces several key features. It allows different privacy policies to be applied to a single piece of information, identifies who classified the data, and links to related documents like consent forms. It also enables labeling at a very detailed level, even within individual records.
+
+Healthcare providers can use this standard to share information securely while following privacy regulations. Health information exchanges can better control data flow between organizations. Application developers gain a consistent method for implementing privacy controls in their software.
+
+Patients benefit from enhanced protection of their sensitive health information. The standard supports the "Share with Protections" approach, which aims to balance information sharing with privacy safeguards. It aligns with US regulations on data segmentation and information blocking, helping healthcare organizations comply with legal requirements while promoting responsible information sharing.

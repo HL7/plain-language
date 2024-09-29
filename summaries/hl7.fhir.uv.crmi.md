@@ -1,0 +1,7 @@
+This standard aims to improve how healthcare knowledge artifacts are managed throughout their lifecycle. It provides a unified approach for creating, publishing, distributing, and implementing resources like value sets, profiles, and clinical measures used in various healthcare domains.
+
+The standard introduces profiles that define expectations for artifacts at different stages, from initial development to execution. It offers guidance on versioning and managing dependencies between artifacts. New operations are defined for packaging, determining data requirements, and managing terminology.
+
+Healthcare system developers, software creators, and knowledge artifact developers are the primary users of this standard. It provides them with clear guidelines for creating and integrating interoperable healthcare resources. The standard also defines capabilities for artifact terminology services and repository services, outlining their expected functionality.
+
+By standardizing these processes, the standard aims to enhance consistency and reliability in healthcare knowledge management. This can support various healthcare initiatives, including quality improvement and clinical decision support.

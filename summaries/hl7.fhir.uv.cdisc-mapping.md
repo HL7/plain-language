@@ -1,0 +1,5 @@
+This standard aims to improve healthcare interoperability in the United States. It focuses on streamlining the exchange of clinical data between healthcare providers and payers. The standard defines specific FHIR resources and profiles for sharing patient information, clinical notes, and claims data. It also outlines API requirements for secure data transmission.
+
+Key features include standardized data elements for common healthcare scenarios, such as medication lists and laboratory results. The standard provides implementation guidance for both EHR systems and payer organizations. It addresses privacy concerns by incorporating consent mechanisms and access controls.
+
+Healthcare providers can use this standard to reduce administrative burdens when submitting claims. Payers benefit from more efficient processing of clinical data for care management and quality reporting. Ultimately, the standard seeks to enhance care coordination and reduce costs in the U.S. healthcare system.

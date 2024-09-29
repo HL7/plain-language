@@ -1,0 +1,7 @@
+This standard aims to improve the exchange of patient treatment information when someone switches health insurance plans in the United States. It addresses a common problem where the new insurer lacks crucial details about ongoing treatments, which can lead to care interruptions and unnecessary paperwork.
+
+The standard creates a structured way for the old insurer to share a "Coverage Transition Document" with the new insurer. This document contains important information about the patient's current treatments, reasons for those treatments, and any existing authorizations. It uses FHIR to ensure the information can be easily shared between different insurance systems.
+
+Key features include a standardized workflow for requesting and tracking information transfers, as well as options for secure, patient-authorized data sharing. The standard also allows insurers to receive automatic updates or check periodically for new information.
+
+By streamlining this process, the standard aims to reduce delays in care, decrease administrative work for patients and healthcare providers, and potentially lower costs by avoiding duplicate tests or procedures. It benefits patients by ensuring smoother transitions between insurance plans, while also helping insurers and healthcare providers work more efficiently.

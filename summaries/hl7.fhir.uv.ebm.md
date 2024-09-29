@@ -1,0 +1,7 @@
+This standard aims to improve the sharing of evidence-based medicine (EBM) information within healthcare systems. It focuses on representing scientific knowledge, including research study designs, findings, and recommendations, in a structured format compatible with FHIR.
+
+The standard introduces new ways to capture complex information about medical evidence. It allows for detailed attribution of scholarly contributions and supports citations for a wide range of sources, including datasets and preprints. A key feature is its ability to represent evidence variables, statistics, and certainty assessments in a machine-readable format.
+
+Researchers, clinicians, and guideline developers can benefit from this standard. It enables more efficient creation and dissemination of evidence-based guidelines and supports better integration of scientific evidence into clinical decision-making processes.
+
+The standard aligns with international regulations for clinical trial protocols, making it relevant for organizations involved in medical research and regulatory compliance. By providing a standardized approach to EBM data, it aims to enhance the quality and accessibility of scientific information in healthcare settings.

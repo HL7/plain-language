@@ -1,0 +1,7 @@
+This standard aims to improve how work-related information is captured and shared in healthcare systems. Designed primarily for use in the United States, it focuses on standardizing data about a patient's current and past jobs, including job titles, industries, work schedules, and potential hazards. The standard also allows for recording work information of household members when relevant to a patient's health.
+
+By providing a structured format for occupational data, this standard supports better clinical care, especially for managing chronic conditions and diagnosing work-related illnesses. It can also aid public health initiatives by enabling more effective tracking and analysis of occupation-related health trends.
+
+The standard uses FHIR resources and profiles to represent occupational data elements consistently. It incorporates both standard and custom value sets to ensure uniform coding of work-related concepts across different healthcare systems.
+
+Key beneficiaries include clinicians, who can make more informed decisions with access to structured work information, and public health agencies, who can use the data for research and targeted interventions. Health IT developers can also use this standard to implement occupational data features in EHRs and other healthcare software.

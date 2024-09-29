@@ -1,0 +1,7 @@
+This standard aims to create a centralized, validated healthcare directory for the United States. It defines how to exchange and access provider information using FHIR, supporting various healthcare processes like provider discovery, referrals, and health plan enrollment.
+
+The standard outlines FHIR profiles for representing data about practitioners, organizations, locations, services, networks, and insurance plans. It specifies an API for querying the directory and methods for ensuring data accuracy. The approach reduces redundancy by creating a single source of verified provider information, eliminating the need for multiple organizations to collect and validate the same data.
+
+Key features include support for real-time queries and bulk data access, data validation processes, and the ability to receive updates through subscriptions. The standard is designed to be flexible, accommodating different implementation needs while providing a baseline for data exchange.
+
+Healthcare providers, payers, health information exchanges, and government agencies are the primary users of this standard. It aims to streamline administrative tasks, improve data accuracy, and enhance interoperability across healthcare systems.

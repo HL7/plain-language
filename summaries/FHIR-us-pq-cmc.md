@@ -1,0 +1,7 @@
+This standard aims to streamline how pharmaceutical companies submit drug product application information to the U.S. Food and Drug Administration (FDA). It focuses specifically on the Pharmaceutical Quality/Chemistry, Manufacturing, and Controls (PQ/CMC) section of applications. The standard uses FHIR to structure this data, making it easier for the FDA to process and review electronically.
+
+The standard introduces a phased approach, grouping different aspects of PQ/CMC information into stages for gradual implementation. It utilizes various FHIR resources to represent different data elements and employs profiles to ensure consistency and compliance with FDA requirements. A narrative transform tool helps convert XML files into XHTML format for each profile.
+
+This standard aligns with international guidelines, particularly the Common Technical Document (CTD) and electronic Common Technical Document (eCTD) formats. It also adheres to relevant FDA regulations.
+
+Key beneficiaries include FDA reviewers, who can more efficiently analyze structured PQ/CMC data, and pharmaceutical companies, who benefit from a more streamlined application process. The standard also provides a clear framework for software vendors developing systems to support PQ/CMC data exchange.
