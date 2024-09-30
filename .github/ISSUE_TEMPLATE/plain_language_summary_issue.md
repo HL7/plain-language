@@ -1,7 +1,7 @@
 ---
 name: Plain Language Summary Issue
 about: Report issues with plain language summaries
-title: "[SUMMARY ISSUE] "
+title: ""
 labels: summary improvement
 assignees: ''
 
