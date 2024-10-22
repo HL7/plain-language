@@ -4,4 +4,4 @@ Key features include standardized data exchange methods, consent management proc
 
 Pharmacies benefit from easier access to patient information for accurate dispensing and billing. Specialty hubs and manufacturers can more efficiently enroll patients in support programs and coordinate care. Healthcare providers experience reduced manual processes and better integration with EHR workflows.
 
-The standard aligns with US Core profiles and incorporates SMART app functionality for scenarios requiring user interaction. It emphasizes adherence to security principles and patient privacy protection in accordance with relevant regulations.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles and incorporates SMART app functionality for scenarios requiring user interaction. It emphasizes adherence to security principles and patient privacy protection in accordance with relevant regulations.

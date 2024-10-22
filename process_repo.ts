@@ -3,6 +3,7 @@ import path from 'path';
 import { VertexAI } from "@google-cloud/vertexai";
 import Anthropic from "@anthropic-ai/sdk";
 import type { TextBlock } from '@anthropic-ai/sdk/resources/index.mjs';
+import { exec } from 'child_process';
 
 const repoPath = process.argv[2];
 if (!repoPath) {
@@ -46,6 +47,9 @@ async function processRepo(repoPath: string) {
 
   const fileContent = await concatenateFiles(inputDir);
   await generateSummary(fileContent);
+  
+  // Add this line to run the post-processing step
+  // await runPostProcessing();
 }
 
 async function concatenateFiles(dir: string): Promise<string> {
@@ -221,6 +225,21 @@ Provide only the refined summary as your response, without additional explanatio
   } catch (error) {
     console.error('Error generating or refining summary:', error);
   }
+}
+
+async function runPostProcessing() {
+  return new Promise<void>((resolve, reject) => {
+    exec('bun run add_links.ts', (error, stdout, stderr) => {
+      if (error) {
+        console.error('Error running post-processing:', error);
+        reject(error);
+      } else {
+        console.log('Post-processing completed successfully');
+        console.log(stdout);
+        resolve();
+      }
+    });
+  });
 }
 
 processRepo(repoPath).catch(console.error);

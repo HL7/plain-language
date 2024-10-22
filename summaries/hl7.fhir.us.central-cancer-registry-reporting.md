@@ -6,4 +6,4 @@ Key features include the use of FHIR resources to represent cancer-related infor
 
 This approach benefits central cancer registries by providing timely, standardized data for improved surveillance and research. Healthcare providers can reduce manual reporting burdens, while EHR vendors and technology developers can create systems that support automated cancer reporting workflows.
 
-The standard aligns with US Core profiles, the mCode standard for cancer data exchange, and the MedMorph framework for public health reporting. It directly addresses legal requirements for cancer reporting in the USA.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles, the mCode standard for cancer data exchange, and the [MedMorph](https://build.fhir.org/ig/HL7/hl7.fhir.us.medmorph) framework for public health reporting. It directly addresses legal requirements for cancer reporting in the USA.

@@ -4,4 +4,4 @@ By moving away from unstructured documents like Word files and PDFs, the standar
 
 Key features include the use of FHIR resources to represent data in a granular format, the creation of reusable component libraries, and the ability to transform data into other formats when needed for regulatory submissions.
 
-The standard aligns with the content scope of the ICH Common Technical Document (CTD) and references EDQM terminologies for certain pharmaceutical terms. It benefits biopharmaceutical companies, contract manufacturers, labs, regulatory affairs professionals, and software developers by streamlining data management and exchange processes in the pharmaceutical industry.
+The standard aligns with the content scope of the ICH [Common Technical Document](https://build.fhir.org/ig/HL7/FHIR-us-pq-cmc) (CTD) and references EDQM terminologies for certain pharmaceutical terms. It benefits biopharmaceutical companies, contract manufacturers, labs, regulatory affairs professionals, and software developers by streamlining data management and exchange processes in the pharmaceutical industry.

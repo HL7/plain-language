@@ -4,4 +4,4 @@ Key features include a standardized format for initial case reports and a struct
 
 By streamlining the reporting process, this standard reduces the burden on healthcare providers while ensuring public health agencies receive timely, complete, and standardized case data. This improved data exchange supports more effective disease surveillance and public health interventions, potentially leading to faster outbreak detection and better control of communicable diseases.
 
-The standard aligns with US Core FHIR profiles and supports compliance with legal requirements for disease reporting to public health agencies.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) FHIR profiles and supports compliance with legal requirements for disease reporting to public health agencies.

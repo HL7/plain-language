@@ -4,4 +4,4 @@ Key features include the use of LOINC codes to identify lab tests, predefined va
 
 Health IT developers are the primary users of this standard, as it provides clear specifications for implementing lab data exchange. Healthcare providers benefit from improved access to standardized lab results from various sources, potentially leading to better-informed clinical decisions.
 
-The standard aligns with the United States Core Data for Interoperability (USCDI) by using LOINC codes for observation types. It offers a structured approach to lab data exchange, enhancing interoperability in the U.S. healthcare system.
+The standard aligns with the United States Core Data for Interoperability ([USCDI](https://build.fhir.org/ig/HL7/hl7.fhir.us.core)) by using LOINC codes for observation types. It offers a structured approach to lab data exchange, enhancing interoperability in the U.S. healthcare system.

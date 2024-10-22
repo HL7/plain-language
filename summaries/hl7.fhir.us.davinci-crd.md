@@ -1,6 +1,6 @@
 This standard aims to streamline insurance coverage determinations for healthcare services in the United States. It defines a real-time API that allows healthcare providers to query a patient's insurance company and receive immediate feedback on coverage requirements. This includes information about necessary documentation, prior authorization status, alternative therapies, and potential patient costs.
 
-The standard introduces a new approach using FHIR, CDS Hooks, and SMART on FHIR technologies to enable real-time, context-specific coverage discovery within a provider's EHR system. It addresses limitations of traditional insurance adjudication processes by operating on clinical orders and providing rapid responses.
+The standard introduces a new approach using FHIR, [CDS Hooks](https://build.fhir.org/ig/HL7/hl7.other.uv.cds-hooks), and [SMART on FHIR](https://build.fhir.org/ig/HL7/hl7.fhir.uv.smart-app-launch) technologies to enable real-time, context-specific coverage discovery within a provider's EHR system. It addresses limitations of traditional insurance adjudication processes by operating on clinical orders and providing rapid responses.
 
 Key features include FHIR-based data exchange, CDS Hooks for triggering queries at specific workflow points, and SMART on FHIR for more complex interactions. The standard also defines custom extensions to convey coverage details and allows providers to customize the types of information they receive.
 

@@ -1,6 +1,6 @@
 This standard aims to improve how healthcare providers in the United States access and use Prescription Drug Monitoring Program (PDMP) data. PDMPs are state-run databases that track controlled substance prescriptions to help prevent misuse. The standard enables secure, efficient data exchange between providers' systems and PDMPs using FHIR.
 
-Key features include a specialized FHIR operation to request PDMP data, support for different response formats, and the ability to pre-fetch data for quick access. It also provides guidance on integrating PDMP checks into clinical workflows using CDS Hooks and SMART apps.
+Key features include a specialized FHIR operation to request PDMP data, support for different response formats, and the ability to pre-fetch data for quick access. It also provides guidance on integrating PDMP checks into clinical workflows using [CDS Hooks](https://build.fhir.org/ig/HL7/hl7.other.uv.cds-hooks) and SMART apps.
 
 The standard benefits prescribers and pharmacists by allowing them to access PDMP information within their existing systems, helping them make informed decisions about prescribing controlled substances. Healthcare organizations can more easily integrate PDMP data into their processes, improving patient safety and regulatory compliance.
 

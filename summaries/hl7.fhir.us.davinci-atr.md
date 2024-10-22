@@ -5,7 +5,7 @@ The standard introduces several key features to streamline the process:
 1. It defines a common structure for representing Member Attribution Lists using FHIR.
 2. It establishes APIs for exchanging lists and requesting changes, allowing for automated updates.
 3. It incorporates real-time notifications of list changes.
-4. It utilizes SMART on FHIR for secure access to patient data.
+4. It utilizes [SMART on FHIR](https://build.fhir.org/ig/HL7/hl7.fhir.uv.smart-app-launch) for secure access to patient data.
 5. It supports bulk data exchange for efficiently handling large lists.
 6. It enables providers to create and propose attribution lists to payers.
 

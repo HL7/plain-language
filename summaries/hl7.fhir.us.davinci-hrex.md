@@ -6,4 +6,4 @@ To ensure data traceability, the standard promotes the use of Provenance resourc
 
 Payers benefit from streamlined processes and improved data accuracy. Providers gain easier access to patient information from payers, supporting better decision-making. Patients may experience improved care coordination due to enhanced data sharing between their providers and payers.
 
-The standard aligns with US Core profiles and addresses HIPAA-related security and privacy considerations for protecting sensitive patient data.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles and addresses HIPAA-related security and privacy considerations for protecting sensitive patient data.

@@ -6,4 +6,4 @@ Security and privacy are prioritized, with mandatory encryption and recommended 
 
 Key beneficiaries include developers of backend services and FHIR servers, healthcare organizations, and researchers. It enables improved data sharing and interoperability, potentially accelerating healthcare research and supporting quality improvement initiatives.
 
-The standard aligns with the US Core Data for Interoperability (USCDI) and recommends the SMART Backend Services Authorization Profile for secure access management.
+The standard aligns with the [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) Data for Interoperability ([USCDI](https://build.fhir.org/ig/HL7/hl7.fhir.us.core)) and recommends the SMART Backend Services Authorization Profile for secure access management.

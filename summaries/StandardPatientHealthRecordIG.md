@@ -4,4 +4,4 @@ The standard emphasizes patient ownership and control over health data, aligning
 
 Patients benefit by being able to compile and manage their comprehensive medical history, facilitating informed healthcare decisions. Healthcare providers can access complete patient records, improving diagnosis, treatment planning, and care coordination. PHR developers receive clear guidance for creating interoperable applications, fostering innovation in the PHR ecosystem.
 
-The standard provides example patient journeys and synthetic data to guide developers in modeling realistic scenarios. It references and aligns with relevant FHIR standards, including US Core and Argonaut profiles, as well as specialized standards for genomics and radiology.
+The standard provides example patient journeys and synthetic data to guide developers in modeling realistic scenarios. It references and aligns with relevant FHIR standards, including [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) and Argonaut profiles, as well as specialized standards for genomics and radiology.

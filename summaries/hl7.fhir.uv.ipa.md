@@ -1,6 +1,6 @@
 This standard aims to enable patients worldwide to access their health information from various healthcare providers through secure, patient-facing applications. It defines a common set of patient data elements and access methods that can be used globally, while allowing for regional customization.
 
-The standard leverages FHIR and the SMART App Launch framework to ensure secure authorization and authentication. It specifies a core set of patient information, including demographics, conditions, medications, and allergies, that should be accessible through the API. The standard also outlines how applications can search for specific information and generate comprehensive patient summaries.
+The standard leverages FHIR and the [SMART App Launch](https://build.fhir.org/ig/HL7/hl7.fhir.uv.smart-app-launch) framework to ensure secure authorization and authentication. It specifies a core set of patient information, including demographics, conditions, medications, and allergies, that should be accessible through the API. The standard also outlines how applications can search for specific information and generate comprehensive patient summaries.
 
 Key features include support for document generation, guidance on safe synchronization of patient records, and recommendations for handling language and coding variations across different countries.
 
