@@ -1,0 +1,37 @@
+SMART App Launch,hl7.fhir.uv.smart-app-launch
+SMART on FHIR,hl7.fhir.uv.smart-app-launch
+US Core,hl7.fhir.us.core
+USCDI,hl7.fhir.us.core
+Clinical Document Architecture,hl7.cda.uv.core
+CDA,hl7.cda.uv.core
+International Patient Summary CDA,hl7.cda.uv.ips
+Clinical Quality Language,hl7.cql
+CQL,hl7.cql
+MedMorph,hl7.fhir.us.medmorph
+mCODE,hl7.fhir.us.mcode
+Common Technical Document,FHIR-us-pq-cmc
+eCTD,FHIR-us-pq-cmc
+BFDR,hl7.fhir.us.bfdr
+PQ/CMC,FHIR-us-pq-cmc
+Consolidated CDA,hl7.cda.us.ccda
+C-CDA,hl7.cda.us.ccda
+SMART Health Cards,hl7.fhir.uv.smart-health-cards-and-links
+SMART Health Links,hl7.fhir.uv.smart-health-cards-and-links
+FHIR Shorthand,hl7.fhir.uv.shorthand
+FSH,hl7.fhir.uv.shorthand
+Vital Records Common Profiles,hl7.fhir.us.vr-common-library
+Gender Harmony,hl7.xprod.uv.gender-harmony
+SANER,hl7.fhir.uv.saner
+SDC,hl7.fhir.uv.sdc
+FHIRPath,hl7.fhir.uv.fhirpath
+CDS Hooks,hl7.other.uv.cds-hooks
+VRCL,hl7.fhir.us.vr-common-library
+VRDR,hl7.fhir.us.vrdr
+PDex,hl7.fhir.us.davinci-pdex
+DEQM,hl7.fhir.us.davinci-deqm
+PCDE,hl7.fhir.us.davinci-pcde
+PAS,hl7.fhir.us.davinci-pas
+CDEX,hl7.fhir.us.davinci-cdex
+CRD,hl7.fhir.us.davinci-crd
+DTR,hl7.fhir.us.davinci-dtr
+HREX,hl7.fhir.us.davinci-hrex
