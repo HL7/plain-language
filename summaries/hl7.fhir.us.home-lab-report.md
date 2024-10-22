@@ -6,4 +6,4 @@ To address the lack of a central database for at-home testing, the standard reco
 
 Key beneficiaries include patients, who can easily share their results; healthcare providers, who receive timely and accurate information; and public health agencies, who can more efficiently monitor and respond to health trends. App developers also benefit from clear guidelines for creating standardized reporting tools.
 
-This standard builds upon existing [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles, promoting compatibility with EHR systems and improving overall data exchange in healthcare.
+This standard builds upon existing [US Core](https://build.fhir.org/ig/HL7/US-Core) profiles, promoting compatibility with EHR systems and improving overall data exchange in healthcare.

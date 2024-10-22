@@ -6,4 +6,4 @@ Key features include defined FHIR profiles for structuring referral information,
 
 Healthcare providers benefit from easier referral processes and improved care coordination. CBOs can seamlessly receive referrals and report on service delivery outcomes. Health Information Exchanges can act as intermediaries, facilitating secure information exchange. Ultimately, patients benefit from better care coordination and improved access to community-based services.
 
-The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) FHIR profiles and the IHE Patient Care Coordination Technical Framework, ensuring compatibility with established interoperability frameworks.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core) FHIR profiles and the IHE Patient Care Coordination Technical Framework, ensuring compatibility with established interoperability frameworks.

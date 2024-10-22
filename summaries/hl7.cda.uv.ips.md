@@ -1,4 +1,4 @@
-This standard aims to create a consistent format for International Patient Summaries (IPS) using the HL7 [CDA](https://build.fhir.org/ig/HL7/hl7.cda.uv.core) R2 framework. It provides a blueprint for generating electronic health record summaries that can be easily shared and understood across different healthcare systems, particularly in unplanned or cross-border care situations.
+This standard aims to create a consistent format for International Patient Summaries (IPS) using the HL7 [CDA](https://build.fhir.org/ig/HL7/CDA-core-sd) R2 framework. It provides a blueprint for generating electronic health record summaries that can be easily shared and understood across different healthcare systems, particularly in unplanned or cross-border care situations.
 
 The standard improves upon previous approaches by shifting to FHIR, introducing clear methods for representing unknown or absent information, enhancing medication details, and supporting multiple languages. It uses templated CDA with open templates and versioning to ensure flexibility and future-proofing.
 

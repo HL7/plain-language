@@ -4,4 +4,4 @@ Key features include methods for packaging and transmitting eCP data, using stan
 
 Pathologists benefit from more efficient data capture and reporting. Cancer registries receive more structured and complete information, aiding public health surveillance. Researchers can more easily analyze standardized data for studies and quality improvement. Healthcare providers gain access to more comprehensive patient information, potentially improving clinical decisions.
 
-The standard is based on FHIR R4 and builds upon the IHE Structured Data Capture ([SDC](https://build.fhir.org/ig/HL7/hl7.fhir.uv.sdc)) Technical Framework. It specifically supports public health reporting requirements, such as those for cancer registries.
+The standard is based on FHIR R4 and builds upon the IHE Structured Data Capture ([SDC](https://build.fhir.org/ig/HL7/sdc)) Technical Framework. It specifically supports public health reporting requirements, such as those for cancer registries.

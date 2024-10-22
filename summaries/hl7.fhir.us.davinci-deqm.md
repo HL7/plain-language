@@ -4,6 +4,6 @@ The standard defines specific ways to structure and transmit quality measure dat
 
 Healthcare providers benefit from reduced reporting burdens and improved care gap management. Payers gain access to consistent quality data for performance evaluation. Quality reporting programs receive standardized information for efficient analysis.
 
-The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles and supports reporting to programs like MIPS and Hospital Quality Reporting. It also references the HEDIS Implementation Guide for specific measure examples.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core) profiles and supports reporting to programs like MIPS and Hospital Quality Reporting. It also references the HEDIS Implementation Guide for specific measure examples.
 
 By standardizing quality data exchange, this approach aims to enhance interoperability, streamline reporting processes, and ultimately contribute to improved healthcare quality and outcomes.

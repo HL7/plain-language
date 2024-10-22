@@ -4,4 +4,4 @@ The standard centers around the FHIR CarePlan resource, linking all eLTSS data e
 
 Key beneficiaries include healthcare providers, patients receiving long-term services and supports, and state agencies responsible for eLTSS programs. Providers will be able to better coordinate care and make informed decisions, while patients may experience improved care coordination.
 
-The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) standards, promoting interoperability with other healthcare systems. It also references security guidelines from US Core, demonstrating adherence to industry best practices for data privacy and security.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core) standards, promoting interoperability with other healthcare systems. It also references security guidelines from US Core, demonstrating adherence to industry best practices for data privacy and security.

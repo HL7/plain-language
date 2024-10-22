@@ -4,4 +4,4 @@ Key features include FHIR profiles for SMBP data, extensions for additional info
 
 Patients can easily share their SMBP readings with healthcare providers, enabling more effective remote monitoring and treatment adjustments. Clinicians receive structured SMBP data, allowing for better-informed decision-making. Health centers can integrate this data into their systems, potentially improving overall hypertension management and patient outcomes.
 
-The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core), Vital Signs, and Personal Health Device guidelines, as well as clinical recommendations from organizations like the American Heart Association and Centers for Disease Control and Prevention.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core), Vital Signs, and Personal Health Device guidelines, as well as clinical recommendations from organizations like the American Heart Association and Centers for Disease Control and Prevention.

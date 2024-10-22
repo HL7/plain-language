@@ -4,4 +4,4 @@ Key features include the use of LOINC and SNOMED CT codes for consistent termino
 
 Healthcare providers benefit from more standardized and detailed vital signs data, which can improve patient care and decision-making. Patients using wearable devices can more easily share their health information with doctors. EHR vendors and developers can use this standard to ensure their systems exchange vital signs data effectively. Researchers may also find the standardized data useful for clinical studies and analysis.
 
-The standard aligns with [US Core](https://build.fhir.org/ig/HL7/hl7.fhir.us.core) profiles and acknowledges the importance of adhering to HIPAA security regulations.
+The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core) profiles and acknowledges the importance of adhering to HIPAA security regulations.

@@ -2,6 +2,6 @@ This standard aims to improve healthcare by making clinical practice guidelines 
 
 The standard streamlines CPG development, sharing, and implementation. It reduces duplicate efforts by providing a common format, minimizing inconsistencies across healthcare organizations. This accelerates the adoption of best practices into clinical workflows and enables better measurement of guideline compliance and effectiveness.
 
-Key features include a conceptual knowledge architecture separating patient state, care plans, and workflow execution. It uses [Clinical Quality Language](https://build.fhir.org/ig/HL7/hl7.cql) ([CQL](https://build.fhir.org/ig/HL7/hl7.cql)) to express CPG logic in a computable format and defines a standardized lifecycle for guideline activities.
+Key features include a conceptual knowledge architecture separating patient state, care plans, and workflow execution. It uses [Clinical Quality Language](https://build.fhir.org/ig/HL7/cql) ([CQL](https://build.fhir.org/ig/HL7/cql)) to express CPG logic in a computable format and defines a standardized lifecycle for guideline activities.
 
 The standard benefits multiple stakeholders. Guideline developers gain structured tools for creating computable CPGs. Healthcare providers can more easily integrate guidelines into their systems. Clinicians receive more consistent decision support based on best practices. Ultimately, patients may experience improved quality and consistency of care based on up-to-date clinical guidelines.
