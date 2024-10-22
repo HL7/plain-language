@@ -1,6 +1,6 @@
-This standard aims to streamline how pharmaceutical companies submit drug information to the U.S. Food and Drug Administration (FDA) for review. It focuses on the quality, chemistry, manufacturing, and controls ([PQ/CMC](https://build.fhir.org/ig/HL7/FHIR-us-pq-cmc)) section of drug applications, making this information structured and machine-readable using FHIR.
+This standard aims to streamline how pharmaceutical companies submit drug information to the U.S. Food and Drug Administration (FDA) for review. It focuses on the quality, chemistry, manufacturing, and controls (PQ/CMC) section of drug applications, making this information structured and machine-readable using FHIR.
 
-The standard aligns with the electronic [Common Technical Document](https://build.fhir.org/ig/HL7/FHIR-us-pq-cmc) ([eCTD](https://build.fhir.org/ig/HL7/FHIR-us-pq-cmc)) format and follows a phased approach, starting with solid oral dosage forms. It uses various FHIR resources to represent PQ/CMC information while maintaining human-readable narratives within the data bundles.
+The standard aligns with the electronic [Common Technical Document](https://build.fhir.org/ig/HL7/FHIR-us-pq-cmc) (eCTD) format and follows a phased approach, starting with solid oral dosage forms. It uses various FHIR resources to represent PQ/CMC information while maintaining human-readable narratives within the data bundles.
 
 Pharmaceutical companies are the primary users, structuring PQ/CMC data according to the standard for FDA submission. FDA reviewers benefit from receiving structured data, enabling more efficient and accurate review of drug applications. Software vendors developing regulatory submission systems also need to align with this standard.
 

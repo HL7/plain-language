@@ -4,4 +4,4 @@ The standard builds upon the Human Services Data Specification (HSDS), making it
 
 Healthcare providers can use this standard to find and refer patients to appropriate social services. Insurance companies can incorporate social service referrals into care management programs. Consumers can use mobile apps to search for and access social services in their communities.
 
-This standard is designed to meet requirements outlined in the CMS Interoperability and Patient Access Rule, which mandates standardized API access to provider directories, including social service providers. It also leverages US Core profiles, which are based on the United States Core Data for Interoperability ([USCDI](https://build.fhir.org/ig/HL7/US-Core)).
+This standard is designed to meet requirements outlined in the CMS Interoperability and Patient Access Rule, which mandates standardized API access to provider directories, including social service providers. It also leverages US Core profiles, which are based on the United States Core Data for Interoperability (USCDI).

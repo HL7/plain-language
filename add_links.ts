@@ -57,19 +57,26 @@ async function addLinks() {
       content = content.replace(/\[([^\]]+)\]\(https:\/\/build\.fhir\.org\/ig\/HL7\/[^)]+\)/g, '$1');
 
       let linkCount = 0;
+      const insertedUrls = new Set<string>();
+
       for (const linkifier of linkifiers) {
         if (linkifier.packageId !== currentIGName) {
-          const regex = new RegExp(`\\b${escapeRegExp(linkifier.term)}\\b(?![^\\[]*\\])`, 'g');
-          let hasReplaced = false;
-          content = content.replace(regex, (match) => {
-            if (!hasReplaced) {
-              hasReplaced = true;
-              linkCount++;
-              const repoName = packageToRepo[linkifier.packageId] || linkifier.packageId;
-              return `[${match}](https://build.fhir.org/ig/HL7/${repoName})`;
-            }
-            return match;
-          });
+          const repoName = packageToRepo[linkifier.packageId] || linkifier.packageId;
+          const targetUrl = `https://build.fhir.org/ig/HL7/${repoName}`;
+
+          if (!insertedUrls.has(targetUrl)) {
+            const regex = new RegExp(`\\b${escapeRegExp(linkifier.term)}\\b(?![^\\[]*\\])`, 'g');
+            let hasReplaced = false;
+            content = content.replace(regex, (match) => {
+              if (!hasReplaced) {
+                hasReplaced = true;
+                linkCount++;
+                insertedUrls.add(targetUrl);
+                return `[${match}](${targetUrl})`;
+              }
+              return match;
+            });
+          }
         }
       }
 

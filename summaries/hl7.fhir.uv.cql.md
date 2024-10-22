@@ -1,4 +1,4 @@
-This standard aims to streamline the use of [Clinical Quality Language](https://build.fhir.org/ig/HL7/cql) ([CQL](https://build.fhir.org/ig/HL7/cql)) with FHIR resources in healthcare settings. It provides a unified approach for representing and evaluating clinical logic across various scenarios, including decision support, public health reporting, and research eligibility criteria.
+This standard aims to streamline the use of [Clinical Quality Language](https://build.fhir.org/ig/HL7/cql) (CQL) with FHIR resources in healthcare settings. It provides a unified approach for representing and evaluating clinical logic across various scenarios, including decision support, public health reporting, and research eligibility criteria.
 
 The standard defines profiles for packaging CQL and its compiled form as FHIR Library resources. It also includes profiles for representing information about logic libraries and their evaluation results. A key feature is the specification of a CQL evaluation service, enabling consistent implementation across different systems.
 
