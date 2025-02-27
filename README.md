@@ -16,7 +16,7 @@ Implementation Guides (IGs).
 
 As an example, https://fhir.org/guides/acme/HotBeverage/1.4.2022/ has a plain language summary:
 
-[example-summary.png](example-summary.png)
+![example summary](example-summary.png)
 
 This is authored by [the file summaries/fhir.acme.hotbeverage.md](https://github.com/HL7/plain-language/blob/main/summaries/fhir.acme.hotbeverage.md):
 
