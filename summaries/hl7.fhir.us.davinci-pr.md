@@ -1,9 +1,6 @@
-This standard aims to simplify the retrieval of remittance advice documents for healthcare providers and vendors in the United States. Currently, obtaining these documents often involves manual processes like accessing payer portals, making phone calls, or receiving faxes. The standard defines an API that allows automated retrieval of remittance information, reducing manual effort and errors.
+#GENERAL
+The Da Vinci Postable Remittance Implementation Guide defines a standardized method for healthcare providers to electronically request and receive duplicates of an originally transmitted remittance advice, which are explanations of payments from insurance payers.
 
-The standard addresses common issues such as "missing" remittance advice, which can occur due to shared Tax Identification Numbers, provider transitions, or payer-specific processes. It supports four main use cases: searching for remittance by claim, patient, or payment, and downloading remittance documents.
+Currently, providers often rely on inefficient and time-consuming methods to retrieve duplicates like payer portals, phone calls, or faxes to obtain these documents. This Implementation Guide enables providers to search for remittances based on criteria such as claim information, patient details, or payment data. Providers can then download the remittance electronically, typically as an 835 document or a Portable Document Format (PDF).
 
-Key features include the ability to retrieve remittance advice in both X12 835 (EDI) and PDF formats. The standard also emphasizes the importance of security, including authentication and authorization measures.
-
-Healthcare providers benefit from streamlined remittance retrieval and improved financial reconciliation. Healthcare vendors can integrate the API into their systems to automate remittance processing for clients. Payers may experience reduced administrative burden from manual remittance inquiries.
-
-The standard aligns with HIPAA compliance requirements for handling sensitive remittance data and addresses limitations in existing EDI workflows by providing a mechanism to retrieve copies of 835s.
+This guide offers a solution for streamlining the duplicate retrieval process, potentially reducing manual effort and improving efficiency for healthcare providers.
