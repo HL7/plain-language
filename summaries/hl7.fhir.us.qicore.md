@@ -1,7 +1,10 @@
-This standard, known as QI-Core, aims to improve healthcare quality measurement and clinical decision support in the United States. It defines how specific types of health data should be structured and shared for quality improvement purposes.
+# General
 
-QI-Core is particularly useful for organizations developing quality measures and clinical decision support systems. It provides a common framework for defining data elements needed to calculate quality measures, making it easier to develop and share these measures across different systems. It also ensures that clinical decision support systems can access and interpret patient data consistently.
+QI-Core is a collection of definitions and profiles that facilitates the sharing of information across healthcare. It provides guidance on the structure of data to be used in healthcare systems that support Clinical Decision Support (CDS) and Quality Measurement. QI-Core describes expectations for software systems that exchange healthcare data for the purpose of measuring and improving the quality of healthcare in the United States using FHIR. QI-Core extends US Core to support exchanges that are focused on clinical quality improvement, such as facilitating shared decision-making between patients and providers, determining whether care providers are following established best practices, and measuring care provider and insurance plan performance and effectiveness.
 
-The standard focuses on commonly collected clinical data elements relevant to most quality improvement applications. It introduces specific ways to represent situations where an action or event did not occur, which is crucial for accurate quality measurement. QI-Core also mandates the use of standardized vocabularies for specific data elements, promoting consistency.
+Clinical decision support (CDS) and quality measurement are two key parts of healthcare that work together to enhance patient care:
 
-Key beneficiaries include measure developers, clinical decision support system creators, healthcare providers, and indirectly, patients. Researchers may also find QI-Core useful for quality improvement and population health studies. The standard aligns with [US Core](https://build.fhir.org/ig/HL7/US-Core), supporting compatibility with existing US healthcare data standards.
+- **Clinical decision support (CDS)** tools help healthcare providers make better choices about patient care. They offer information, reminders, and guidelines right when doctors, nurses, and others need them.
+- **Quality measurement** involves checking how well healthcare services are working. It may include looking at whether treatments are effective, if patients are happy with the care they received, or if there are mistakes in the care provided.
+
+Together, CDS and quality measurement ensure that patients receive the best possible care.
