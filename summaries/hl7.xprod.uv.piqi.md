@@ -1,3 +1,5 @@
+# General
+
 The Patient Information Quality Improvement (PIQI) Framework is a healthcare standard that helps organizations check whether their patient data is good enough to use for medical care and decision-making.
 
 **The Problem It Solves** Healthcare organizations exchange patient information in many different computer formats. Each format traditionally required separate quality checks, making it hard to ensure consistent data standards across systems. As more patient data gets shared between hospitals, clinics, and other providers, this becomes increasingly complicated and time-consuming.
