@@ -1,7 +1,11 @@
-This standard aims to streamline how data from personal health devices (PHDs) like glucose meters, blood pressure cuffs, and weight scales is represented using FHIR. It focuses on devices used primarily in home settings, enabling seamless data exchange between PHDs, personal health gateways (PHGs), and healthcare systems.
+# General
+This standard defines how data from personal health devices (PHDs)—such as glucose meters, blood pressure monitors, and weight scales—is represented using FHIR, focusing on home-use devices. It enables seamless data exchange between PHDs, personal health gateways (PHGs, systems or applications that act as intermediaries between PHDs and healthcare systems), and healthcare systems.
 
-The standard leverages newer models for observations, ensuring a consistent approach to data mapping and enhancing interoperability. It addresses the challenge of unreliable PHD time stamps by introducing methods to compare and correct device timelines.
+Key features include a generic mapping algorithm for handling all PHD types, extensibility for future devices, robust time management to address unreliable timestamps, and support for mapping all viable PHD data, including error states. The standard aligns with IEEE 11073-10206 and incorporates LOINC codes for vital signs, ensuring interoperability and data consistency.
 
-Key features include a generic mapping algorithm that allows PHGs to handle various PHD types without specific device knowledge, extensibility to accommodate future device types, and robust time management capabilities. The standard also supports mapping of all viable PHD data, including error states, and provides options for protecting patient health information.
+The guide is intended for:
 
-This standard benefits PHG developers by providing clear guidance on data mapping, healthcare providers by enabling access to PHD data for remote patient monitoring, and researchers by facilitating the use of PHD data for medical studies. It aligns with IEEE standards for medical device communication and incorporates LOINC codes for vital signs measurements.
+- **Personal Health Gateway (PHG) Developers**: Systems or apps that collect, process, and upload PHD data to healthcare systems.
+- **FHIR Data Consumers**: Healthcare providers, researchers, or apps that use PHD data for remote monitoring or studies.
+
+By following this guide, developers can ensure PHD data is accurate, interoperable, and compatible with Bluetooth-enabled devices using the Generic Health Sensor (GHS) profile, facilitating consistent data exchange across platforms.
