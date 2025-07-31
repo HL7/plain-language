@@ -1,3 +1,5 @@
+# General
+
 This standard aims to improve person-centered care by enabling healthcare providers and patients to focus on what matters most to each person receiving care. It provides a standard way for healthcare systems to share and track information about a patient's personal health goals and outcomes.
 
 Goal-directed care is about working together to set and reach personal goals. It includes:
