@@ -1,4 +1,4 @@
-#General
+# General
 
 The HL7 Terminology Change Set Implementation Guide offers a <strong>standardized</strong>, FHIR-based method for distributing medical terminology content, ensuring that all properties associated with each concept in the original terminology are included. This guide is primarily designed for healthcare IT professionals, developers, and organizations involved in creating or maintaining medical terminologies within their systems.
 
