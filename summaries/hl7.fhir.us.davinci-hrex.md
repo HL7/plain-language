@@ -1,3 +1,4 @@
+# General
 This standard aims to improve data exchange between healthcare payers and providers in the United States, focusing on value-based care scenarios like prior authorization and clinical decision support. It defines specific FHIR profiles for key resources such as Coverage, Patient, and Task, tailored to payer-provider interactions.
 
 A key feature is the $member-match operation, which helps identify patients across different payer systems. The standard also provides guidance on managing patient consent for data sharing and uses the Task resource for handling asynchronous data requests.
