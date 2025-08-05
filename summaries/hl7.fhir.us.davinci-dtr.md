@@ -1,3 +1,5 @@
+# General
+
 This standard aims to streamline the process of collecting patient documentation required by health insurance payers for purposes like prior authorization and claims processing. It enables payers to express their documentation requirements in a computable format using FHIR Questionnaires, allowing providers to easily gather and submit necessary information.
 
 The standard automates data collection by leveraging [Clinical Quality Language](https://build.fhir.org/ig/HL7/cql) (CQL) to extract existing patient data from EHRs, reducing manual entry and errors. It supports both pre-defined questionnaires and adaptive forms that adjust based on user responses.
