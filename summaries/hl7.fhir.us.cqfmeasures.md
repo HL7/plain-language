@@ -1,7 +1,5 @@
-This standard, titled "Quality Measure Implementation Guide," aims to standardize the creation and exchange of electronic clinical quality measures (eCQMs) using FHIR. It focuses on the US healthcare system, referencing regulations from the Centers for Medicare & Medicaid Services (CMS).
+# General
 
-The standard introduces several key features to improve eCQM development and use. It incorporates [Clinical Quality Language](https://build.fhir.org/ig/HL7/cql) (CQL) for defining measure logic, which allows for more precise and computable measure specifications. It also outlines how to specify data requirements for measure calculation and describes the use of terminology services for standardized coding.
+Quality measures are a numeric quantification of healthcare quality. The QM IG explains how to create and use quality measures using the FHIR and CQL standards. It's designed to help software developers, measure developers, and healthcare organizations create, share, and implement quality measures consistently.  The QM IG provides structure and conformance guidance to facilitate the development of quality measures.
 
-A significant component of the standard is its guidance on representing composite measures, which combine multiple quality indicators into a single score. It also details the concept of a measure repository service for managing and distributing FHIR-based measures.
-
-The primary users of this standard include measure developers, healthcare organizations, software developers, and quality reporting agencies. By providing a consistent framework for eCQMs, it aims to enhance quality measurement and reporting in US healthcare settings.
+Note that this implementation guide is succeeded by the international [Quality Measure IG](http://hl7.org/fhir/uv/cqm).
