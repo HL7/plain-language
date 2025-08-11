@@ -2,4 +2,4 @@
 
 Quality measures are a numeric quantification of healthcare quality. The QM IG explains how to create and use quality measures using the FHIR and CQL standards. It's designed to help software developers, measure developers, and healthcare organizations create, share, and implement quality measures consistently.  The QM IG provides structure and conformance guidance to facilitate the development of quality measures.
 
-Note that this implementation guide is succeeded by the Universal Realm [Quality Measure IG](http://hl7.org/fhir/uv/cqm).
+Note that this implementation guide is succeeded by the international [Quality Measure IG](http://hl7.org/fhir/uv/cqm).
