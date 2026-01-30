@@ -1,0 +1,7 @@
+# General
+
+De RIVO Noord Zorgviewer-standaard definieert specificaties voor een systeem dat wordt gebruikt door zorgverleners in de regio Noord-Nederland. Het doel is om een enkel, compleet overzicht te bieden van de actuele medische informatie van een patiënt, wat essentieel is wanneer meerdere organisaties samenwerken aan de zorg voor een patiënt.
+
+De standaard specificeert dat patiëntinformatie in real-time direct wordt opgehaald uit de bronsystemen waar deze is opgeslagen. Deze aanpak zorgt ervoor dat zorgverleners altijd de meest actuele gegevens zien zonder duplicaten te creëren. Het systeem schetst ook een model voor het centraal beheren van patiënttoestemming, waardoor patiënten controle hebben over hoe hun informatie wordt gedeeld tussen verschillende zorgverleners.
+
+Voor zorgverleners ondersteunt dit uniforme beeld van patiëntgegevens snellere, beter geïnformeerde besluitvorming en helpt het administratieve taken te verminderen. Voor patiënten is het systeem ontworpen rondom hun toestemming, waardoor zij duidelijke controle hebben over wie toegang heeft tot hun medische dossiers. De standaard is ontworpen om aan te sluiten bij Nederlandse informatiebeveiligingsregelgeving, waaronder NEN 7510, 7512 en 7513, en gebruikt FHIR voor gegevensuitwisseling.
