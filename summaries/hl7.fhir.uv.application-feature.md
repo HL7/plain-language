@@ -1,3 +1,5 @@
+#General
+
 This standard aims to improve how healthcare systems describe their specific capabilities when using FHIR. It introduces a new way for applications to communicate their features, going beyond basic resource and interaction support. The standard uses a terminology-based approach with code/value pairs to define features, simplifying how systems represent their abilities.
 
 Key aspects of the standard include feature definition using standardized codes, the ability to scope features to specific parts of a system, and methods for querying and negotiating features between systems. It introduces a new operation and search parameter to retrieve information about supported features.
