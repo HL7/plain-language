@@ -1,3 +1,4 @@
+# General
 This standard aims to improve how healthcare systems manage patient consent for accessing health data. It focuses on creating, reviewing, signing, sharing, and revoking consent across multiple organizations or systems.
 
 The standard defines specific use cases and introduces custom FHIR profiles to structure consent data consistently. It suggests the potential need for custom FHIR operations to support advanced consent management tasks and emphasizes tracking the history of consent events.
