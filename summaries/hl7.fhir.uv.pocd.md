@@ -1,3 +1,4 @@
+# General
 This standard aims to improve how point-of-care medical devices in acute care settings share data with other healthcare systems. It focuses on standardizing detailed measurements, device status, and device architecture information. The standard uses a device-centric data model that represents complex devices with their subsystems and channels, reflecting real-world organization.
 
 Key features include the use of "deep metadata" to provide more context about device observations, a standardized device model based on IEEE 11073, and comprehensive data archiving capabilities. The standard also incorporates the IEEE 11073-10101 nomenclature for coding device-related concepts and provides guidance on mapping data from existing HL7 v2 device interfaces.
