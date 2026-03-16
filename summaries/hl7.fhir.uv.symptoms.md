@@ -1,9 +1,11 @@
 # General
 
-This standard defines how patient-reported symptoms should be recorded and shared electronically across healthcare systems. When patients describe their health concerns—such as chest pain, dizziness, or fatigue—this standard ensures the information is captured in a structured, consistent format rather than as unstructured text notes.
+This standard establishes how patient-reported symptoms should be recorded and shared electronically across healthcare systems. It focuses on capturing symptoms from the patient's perspective, whether subjective feelings like pain or observable signs like rashes.
 
-The standard addresses the problem of symptom information being trapped in data silos or documented inconsistently, which can hinder effective sharing between providers and potentially lead to diagnostic errors. It provides specific FHIR profiles that break down symptoms into detailed components like severity, onset, duration, location, and quality.
+The standard addresses a key problem: when patients report symptoms like "chest pain," different systems often record this information inconsistently. This creates barriers when healthcare providers need to access complete patient information across different hospitals, clinics, or applications.
 
-Healthcare IT developers use this standard to build EHRs, patient-facing applications, and clinical decision support systems. The standard requires systems to use FHIR APIs for exchanging symptom data and mandates support for specific search capabilities. It also defines how to explicitly record when patients deny having certain symptoms.
+The standard works by breaking down symptom information into separate, structured components. Instead of using a single code for "abdominal pain," it records the symptom (pain) and location (abdomen) as distinct data elements. This approach provides detailed symptom attributes including severity, duration, triggers, and alleviating factors.
 
-Clinicians benefit by having access to structured, longitudinal symptom data at the point of care, supporting better diagnostic reasoning and reducing the need to repeatedly ask patients about their history. Public health agencies can use the standardized data for disease surveillance and outbreak detection. The standard integrates with major medical terminologies including SNOMED CT and LOINC to ensure consistent coding of clinical concepts.
+Healthcare providers benefit from receiving more complete and consistent symptom information, supporting better diagnostic decisions. Patients benefit through improved diagnostic accuracy when their symptom data follows them across different care settings. Public health agencies can use the standardized data for disease surveillance and outbreak detection.
+
+The standard defines specific FHIR profiles and requires systems to use RESTful APIs for data exchange. It incorporates established medical terminologies like SNOMED CT and LOINC to ensure consistent meaning across different systems. The standard also provides guidance for handling recurring symptoms and linking symptom data to related medical conditions.
