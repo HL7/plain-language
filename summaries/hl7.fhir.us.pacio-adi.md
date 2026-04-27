@@ -1,6 +1,6 @@
 # General
 
-The PACIO Advance Directive Interoperability (ADI) FHIR Implementation Guide is an HL7 standard that aims to improve how advance healthcare directives are shared between healthcare systems in the United States. It focuses on enabling the exchange of patients' medical care preferences, especially when they cannot communicate these wishes themselves.
+The Advance Healthcare Directive Interoperability (ADI) FHIR implementation guide (IG) explains how to represent, exchange, and verify a person’s goals, preferences and priorities for medical treatment and interventions regarding future medical care. It also explains how to represent a person’s appointment of one or more healthcare agents who can make care decisions for the patient if the patient can’t communicate.
 
 The standard covers three types of advance directive information: patient-authored documents, medical orders for life-sustaining treatment, and future support for encounter-specific instructions. It defines how to represent this information using FHIR resources and provides guidance on creating, sharing, querying, updating, and revoking advance directives.
 
