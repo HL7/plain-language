@@ -1,0 +1,3 @@
+# General
+
+The PACIO Transitions of Care IG defines a FHIR R4-based standard for exchanging patient information when post-acute care (PAC) patients move between PAC settings — such as from a rehabilitation facility to a skilled nursing facility or home health. It specifies machine-readable FHIR resources for the most essential PAC data needed for patient care, including standardized assessments, problems, medications, allergies, immunizations, functional status, social history, and advance directives. The goal is to reduce care gaps, provider burden, and transcription errors during handoffs in the patient journey.
