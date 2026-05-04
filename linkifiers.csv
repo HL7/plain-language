@@ -23,7 +23,7 @@ Vital Records Common Profiles,hl7.fhir.us.vr-common-library
 Gender Harmony,hl7.xprod.uv.gender-harmony
 SANER,hl7.fhir.uv.saner
 SDC,hl7.fhir.uv.sdc
-FHIRPath,hl7.fhir.uv.fhirpath
+FHIRPath,hl7.fhirpath
 CDS Hooks,hl7.other.uv.cds-hooks
 VRCL,hl7.fhir.us.vr-common-library
 VRDR,hl7.fhir.us.vrdr

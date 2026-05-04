@@ -158,7 +158,7 @@
   "crmi-ig": "hl7.fhir.uv.crmi",
   "ig-template-extensions": "hl7.extensions.template",
   "fhir-exchange-routing-ig": "hl7.fhir.us.exchange-routing",
-  "FHIRPath": "hl7.fhir.uv.fhirpath",
+  "FHIRPath": "hl7.fhirpath",
   "davinci-pr": "hl7.fhir.us.davinci-pr",
   "vrdr": "hl7.fhir.us.vrdr",
   "fhir-COVID19Library-ig": "hl7.fhir.us.covid19library",
