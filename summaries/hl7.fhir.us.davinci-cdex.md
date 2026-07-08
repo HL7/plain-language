@@ -1,11 +1,11 @@
-This standard aims to improve how healthcare providers and insurance companies exchange clinical data in the United States. It focuses on allowing insurers to request specific patient information from providers, rather than receiving large amounts of unnecessary data.
+#General
 
-The standard outlines three main ways to exchange information:
+This standard aims to make it easier for healthcare providers and payers to request and share clinical information in the United States. It supports needs such as gathering attachments for claims and prior authorization, providing documentation for payer operations like claims audits, and coordinating care between providers. "Clinical data" here means any information in a patient's record, including FHIR resources, C-CDA documents, PDFs, and other formats.
 
-1. Direct queries where insurers can search provider systems for exact data
-2. A task-based approach for requesting data that may need human review
-3. A method for sharing medical attachments related to claims or prior authorizations
+The standard defines three ways to exchange this information using FHIR. Direct Query uses standard FHIR RESTful search to retrieve data directly. Task-Based exchange uses the FHIR Task resource for asynchronous requests that may require human involvement. The Attachments approach handles additional information for claims and prior authorization, requested either by attachment code (LOINC and X12) or by FHIR Questionnaire.
 
-These approaches help reduce administrative work for healthcare providers and protect patient privacy by limiting data sharing to what's truly needed. Insurers benefit from more efficient access to clinical information, which can streamline processes like claims management and quality reporting.
+Key features include constraining US Core and Da Vinci HRex profiles, using the Task resource for asynchronous and solicited/unsolicited workflows, and supporting electronic and digital signatures so exchanged data can be attested and verified. Because payers can be explicit about what they need, the standard avoids sending more information than necessary and works alongside the Da Vinci PAS guide.
 
-The standard aligns with existing US healthcare regulations and data requirements. It emphasizes patient privacy, data security, and only sharing the minimum necessary information. By improving data exchange, this standard aims to support better care coordination and more accurate health assessments for patients.
+Providers benefit from reduced administrative burden and easier access to records held by others. Payers benefit from precise, standardized requests that improve accuracy across claims, care coordination, risk adjustment, and quality reporting. Patients may experience better-coordinated care and faster access to services.
+
+The standard is based on FHIR R4, aligns with US Core (covering USCDI V1, V3, and V4) and Da Vinci HRex, and addresses HIPAA privacy by emphasizing limited, focused requests for only the data needed.
