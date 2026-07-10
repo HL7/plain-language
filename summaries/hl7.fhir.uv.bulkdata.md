@@ -1,3 +1,7 @@
 # General
 
 This standard defines a method for efficiently exporting large healthcare datasets such as patient records or claims from FHIR-based systems. It addresses the need to transfer bulk data between software systems or between organizations that have appropriate data sharing agreements in place for purposes like research, population health management, and clinical quality measurement. Key beneficiaries include developers of FHIR servers, healthcare organizations, payer organizations, and researchers. The standard recommends the SMART Backend Services Authorization Profile for secure access management.
+
+# 4.0.0-ballot
+
+This implementation guide defines approaches to efficiently exchange large healthcare datasets in FHIR format. It addresses the need to transfer bulk data between software systems within an organization, as well as between organizations that have appropriate data sharing agreements in place. Example uses include pulling a set of patient data from an electronic health record (EHR) system for analysis, retrieving claims data for a population from a payer, sending pre-arranged data packages to support quality measurement, and publishing provider directories or lists of open appointment slots. Key audiences include developers of FHIR servers, healthcare organizations, payers, and researchers. This guide recommends the SMART Backend Services Authorization Profile for secure access management.
