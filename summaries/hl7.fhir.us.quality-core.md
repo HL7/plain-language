@@ -1,2 +1,3 @@
-#general
+# General
+
 US Quality Core is a set of rules that help healthcare organizations share the health information used to measure and improve the quality of care across the United States. It uses the FHIR standard to align how data — such as patient records, encounters, medications, and lab results — is formatted and exchanged. These rules build directly on US Core, the common national foundation for sharing health data, and follow a federal list called USCDI+ Quality, which spells out the specific data elements needed to calculate quality measures. The goal of US Quality Core is to give hospitals, clinics, health plans, and quality programs a single, consistent way to represent and exchange the data behind quality measurement and reporting.
