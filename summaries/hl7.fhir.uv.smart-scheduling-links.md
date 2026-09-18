@@ -1,0 +1,5 @@
+# General
+
+SMART Scheduling Links is a standardized way for clinics, doctors' offices, and pharmacies to publish their open appointment times so that any app or website can show them to patients. This is analogous to leveraging Kayak to book a flight or a hotel: patients can search across multiple providers in one place, instead of visiting each provider's website separately, to find the appointment that fits them best. For providers, it offers an easy and simple way to publish open appointments through a "Calendly"-like experience, where the provider controls which times are exposed and who can book them. Patients then follow a link into the provider's own booking system to finish the booking.
+
+This is different from SMART Health Links: SMART Health Links is a way for a patient to share their own health records with someone else, while SMART Scheduling Links is a way for a provider to publish appointment availability to patients and to the apps patients use. Both build on the SMART family of standards, but SMART Scheduling Links is focused solely on appointment availability and discovery.
