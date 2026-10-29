@@ -1,7 +1,7 @@
-This standard aims to create a national directory of healthcare providers and services in the United States. It establishes a centralized, reliable source of information about healthcare providers, organizations, and their services, including details about relationships, electronic endpoints, and network affiliations.
+# General
 
-The standard outlines processes for data submission, validation, and verification, ensuring accuracy and trustworthiness. It defines APIs for both national and local directory environments, promoting data exchange and interoperability. The standard also supports bulk data export for efficient handling of large datasets and includes subscription mechanisms for real-time updates.
+The National Directory of Healthcare Providers & Services (NDH) Implementation Guide describes a common way to share information about healthcare and social-service providers, organizations, services, networks, insurance plans, locations, and electronic points of contact.
 
-Key features include security considerations, incorporating FHIR security standards and authorization protocols. It also addresses the handling of sensitive data through a restriction profile to manage access and disclosure.
+The guide defines the information to include and rules for exchanging it through application programming interfaces (APIs). It supports sharing information between national and local directories. Possible uses include finding providers and services, making referrals, locating electronic connections for information exchange, enrolling in health plans, and supporting credentialing.
 
-Primary beneficiaries include local directories, healthcare providers and organizations, application developers, and payers. The standard aims to improve the efficiency and accuracy of healthcare directories, reducing administrative burden and enabling easier access to verified provider data for various healthcare stakeholders.
+By helping organizations exchange information in a consistent way, NDH aims to reduce duplicate work and make directory information easier to maintain and more reliable.
